@@ -51,10 +51,18 @@ body {
   padding: 20px;
   flex: 1;
 }
-.divider {
+.mobiledivider {
   display: none; /* Hidden by default */
   width: 30%;
   height: 3px;
+  border-radius: 10px;
+  background-color: #ff7700;
+  margin: 10px auto;
+  margin-bottom: 30px;
+}
+.divider {
+  width: 10%;
+  height: 4px;
   border-radius: 10px;
   background-color: #ff7700;
   margin: 10px auto;
@@ -72,7 +80,7 @@ body {
     padding: 10px;
     width: 100%;
   }
-  .divider {
+  .mobiledivider {
     display: block;
   }
 }
