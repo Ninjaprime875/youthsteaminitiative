@@ -67,7 +67,7 @@ html, body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #f7f7f7;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -3074,20 +3074,17 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #aa922a;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
+  background-color: #7e6c1e;
 }
 .btn-check:focus + .btn-primary,
 .btn-primary:focus {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
-  box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+  background-color: #7e6d1e;
+  box-shadow: 0 0 0 0.25rem rgba(246, 196, 88, 0.5);
 }
 .btn-check:checked + .btn-primary,
 .btn-check:active + .btn-primary,
@@ -3095,21 +3092,19 @@ fieldset:disabled .btn {
 .btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #c34e2e;
-  border-color: #b74a2c;
+  background-color: #7e6c1e;
 }
 .btn-check:checked + .btn-primary:focus,
 .btn-check:active + .btn-primary:focus,
 .btn-primary:active:focus,
 .btn-primary.active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(246, 196, 88, 0.5);
 }
 .btn-primary:disabled,
 .btn-primary.disabled {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #aa922a;
 }
 
 .btn-secondary {
@@ -11431,8 +11426,8 @@ header.masthead {
   /*changes the background image currently the cs team, and the color of the overlay thing*/
   background: linear-gradient(
       to bottom,
-      rgba(84, 189, 242, 0.5) 0%,
-      rgba(59, 167, 239, 0.5) 100%
+      rgba(5, 112, 199, 0.5) 0%,
+      rgba(5, 91, 160, 0.5) 100%
     ),
     url("../images/CSteam4.jpg"); /* this changes the cover photo in the main page */
 
