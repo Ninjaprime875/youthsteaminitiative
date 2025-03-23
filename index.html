@@ -8,7 +8,7 @@
     />
     <meta name="description" content="Youth STEAM Initiative" />
     <meta name="author" content="" />
-    <title>About Us</title>
+    <title>Youth STEAM Initiative</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico?v=2" />
     <!-- Bootstrap Icons-->
@@ -299,31 +299,33 @@
     <!-- Firebase SDK -->
     <script type="module">
       import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
-      import {
-        getDatabase,
-        ref,
-        onValue,
-        runTransaction,
-      } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js";
-      import { firebaseConfig } from "./js/firebase-config.js";
-
+      import { getDatabase, ref, runTransaction } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js";
+      import { firebaseConfig } from "./js/firebase-config.js";  
+    
       // Initialize Firebase
       const app = initializeApp(firebaseConfig);
       const database = getDatabase(app);
       const visitorRef = ref(database, "visitorCount");
-
-      // Check if the user has visited before using localStorage
+    
+      // Function to handle visitor count update
+      const incrementVisitorCount = async () => {
+        try {
+          await runTransaction(visitorRef, (currentCount) => {
+            return (currentCount || 0) + 1;
+          });
+          // Store the flag in localStorage 
+          localStorage.setItem("hasVisited", "true");
+        } catch (error) {
+          console.error("Error updating visitor count:", error);
+        }
+      };
+    
+      // Check if the user has visited using localStorage
       if (!localStorage.getItem("hasVisited")) {
-        runTransaction(visitorRef, (currentCount) => {
-          return (currentCount || 0) + 1;
-        })
-          .then((result) => {
-            // Mark as visited
-            localStorage.setItem("hasVisited", "true");
-          })
-          .catch((error) => {});
+        incrementVisitorCount();
       }
     </script>
+    
     <script src="components/nav-component.js" type="text/javascript"></script>
     <!-- Bootstrap core JS-->
     <script
