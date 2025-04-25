@@ -27,17 +27,72 @@
     <!--		<link href = "css/flatlythemebootstrap.css" rel = "stylesheet" /> -->
 
     <style>
+        /* Base styles */
         li {
             font-size: 18px;
         }
-
+    
         #poster {
             width: 60%;
         }
-
-        @media (width <= 992px) {
+    
+        /* Main content adjustments */
+        .page-section {
+            padding: 1rem 0.5rem !important;
+        }
+    
+        .container-fluid {
+            max-width: 100%;
+            padding: 0 15px;
+        }
+    
+        /* Text column adjustments */
+        .clearfix {
+            margin: 0 -10px;
+        }
+    
+        .clearfix p {
+            font-size: 18px;
+            margin-bottom: 1rem;
+        }
+    
+        /* Image/button container adjustments */
+        .col-md-6.float-md-end.mb-3.ms-md-3 {
+            width: 25% !important;
+            min-width: 200px;
+            margin: 0 0 20px 30px !important;
+        }
+    
+        /* Mobile styles */
+        @media (max-width: 768px) {
+            .col-md-6.float-md-end.mb-3.ms-md-3 {
+                width: 100% !important;
+                float: none !important;
+                margin: 0 auto 20px !important;
+                text-align: center;
+            }
+    
+            .col-12.col-lg-10.col-xl-8 {
+                padding: 0 5px;
+            }
+    
+            .clearfix {
+                margin: 0;
+            }
+    
             #poster {
                 width: 100%;
+            }
+        }
+    
+        /* For very small screens */
+        @media (max-width: 480px) {
+            .page-section {
+                padding: 0.5rem !important;
+            }
+            
+            .clearfix p {
+                font-size: 16px;
             }
         }
     </style>
@@ -53,14 +108,14 @@
         </ul>
     </section>
 
-    <section class="page-section" style="padding-top: 0rem" id="services">
+    <section class="page-section" style="padding-top: 0rem; padding-bottom: 1rem" id="services">
             <div class="container px-4 px-lg-5">
                 <br><br><h2 class="text-center mt-0" style="font-size: 3rem"><b>Donate</b></h2>
                 <hr class="specialdivider">
                 </div>
-                <div class="container px-4 px-lg-5">
-                    <div class="row">
-                        <div class="col-lg-12">
+                <div class="container-fluid px-3">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-10 col-xl-8">
                             
     <!--
                             <div id="paypal-button-container" style="width: 50%; margin: 40px auto">
@@ -78,7 +133,7 @@
                             <img src="assets/zelleqr.png" class="img-fluid" alt="Zelle QR">
                             <div class="mt-2 text-center"> <!-- Added margin-top and center alignment -->
                                 <a href="https://enroll.zellepay.com/qr-codes?data=eyJuYW1lIjoiV2VpIERpbmciLCJ0b2tlbiI6ImxleHlvdXRoc3RlYW1AZ21haWwuY29tIn0=">
-                                    <button type="button" class="btn btn-primary btn-lg">Donate Now</button>
+                                    <br><button type="button" class="btn btn-primary btn-lg">Donate Now</button>
                                 </a>
                             </div>
                         </div>
