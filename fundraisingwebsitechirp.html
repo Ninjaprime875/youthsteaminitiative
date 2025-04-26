@@ -1,586 +1,542 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Fundraising Website Construction</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico?v=2" />
-    <!-- Bootstrap Icons-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <!-- Google fonts-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!-- SimpleLightbox plugin CSS-->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css"
-      rel="stylesheet"
-    />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
 
-    <link href="css/breadcrumb.css" rel="stylesheet" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Fundraising Website Construction</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico?v=2" />
+  <!-- Bootstrap Icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+    rel="stylesheet" type="text/css" />
+  <!-- SimpleLightbox plugin CSS-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
 
-    <!-- Flatly theme from bootstrap: https://bootswatch.com/flatly -->
+  <link href="css/breadcrumb.css" rel="stylesheet" />
 
-    <!--		<link href = "css/flatlythemebootstrap.css" rel = "stylesheet" /> -->
+  <!-- Flatly theme from bootstrap: https://bootswatch.com/flatly -->
 
-    <style>
-      li {
-        font-size: 18px;
-      }
+  <!--		<link href = "css/flatlythemebootstrap.css" rel = "stylesheet" /> -->
 
+  <style>
+    li {
+      font-size: 18px;
+    }
+
+    #poster {
+      width: 60%;
+    }
+
+    @media (width <=992px) {
       #poster {
-        width: 60%;
+        width: 100%;
       }
+    }
+  </style>
+</head>
 
-      @media (width <= 992px) {
-        #poster {
-          width: 100%;
-        }
-      }
-    </style>
-  </head>
+<body id="page-top">
+  <nav-component></nav-component>
 
-  <body id="page-top">
-    <nav-component></nav-component>
+  <section class="breadcrumb-section">
+    <ul class="breadcrumb" style="margin-bottom: 0px">
+      <li>
+        <a href="index.html">Cary Library Children's Room Transformation</a>
+      </li>
+      <li>ChiRP Website Construction Project</li>
+    </ul>
+  </section>
 
-    <section class="breadcrumb-section">
-      <ul class="breadcrumb" style="margin-bottom: 0px">
-        <li>
-          <a href="index.html">Cary Library Children's Room Transformation</a>
-        </li>
-        <li>ChiRP Website Construction Project</li>
-      </ul>
-    </section>
-
-    <section class="page-section" style="padding-top: 1.5rem" id="services">
-      <div class="container px-4 px-lg-5">
-        <h2 class="text-center mt-0" style="font-size: 2rem">
-          <b>Cary Library Foundation Fundraising Website Construction</b>
-        </h2>
-        <h2 class="text-center mt-0" style="font-size: 1.5rem">
-          <b>In collaboration with the Cary Library Foundation</b>
-        </h2>
-        <hr
-          class="specialdivider"
-          style="
+  <section class="page-section" style="padding-top: 1.5rem" id="services">
+    <div class="container px-4 px-lg-5">
+      <h2 class="text-center mt-0" style="font-size: 2rem">
+        <b>Cary Library Foundation Fundraising Website Construction</b>
+      </h2>
+      <h2 class="text-center mt-0" style="font-size: 1.5rem">
+        <b>In collaboration with the Cary Library Foundation</b>
+      </h2>
+      <hr class="specialdivider" style="
             margin-bottom: 1.5rem;
             background-color: midnightblue;
             max-width: 50%;
             margin-top: 0rem;
-          "
-        />
-        <div class="row">
-          <div class="col-lg-12">
-            <h3 class="h4 mb-2" style="font-size: 30px; text-align: center">
-              <br />Introduction
-            </h3>
-            <hr class="divider" />
-
-            <div
-              class="column"
-              id="poster"
-              style="float: right; margin-left: 10px"
-            >
-              <img
-                src="assets/img/chirp/chirpwebpage.png"
-                style="width: 100%; display: block; float: right"
-              />
-            </div>
-
-            <p class="mb-2" style="font-size: 18px">
-              In partnership with the Cary Library Foundation, the Youth Steam
-              Team is hosting an event where YOU have the chance to design a
-              website for the Cary Library Renovation Project (ChiRP)! This
-              event is beginner friendly. We welcome
-              <span style="color: #006aff">all students grade 5-12</span>, even
-              those who have zero experience designing websites.<br /><br />
-              Experienced mentors and hands-on training for all-levels of
-              webpage and graphic design will be available. We will teach
-              students about web design, create a website for the ChiRP project,
-              and recruit new members for the Youth STEAM Initiative.<br /><br />
-              This event is a great opportunity for students to learn new
-              skills, meet other students with similar interests, and contribute
-              to a meaningful community project!
-              <br /><br />
-            </p>
-          </div>
-          <h2 style="text-align: center; margin-top: 100px">Meeting Notes</h2>
+          " />
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 class="h4 mb-2" style="font-size: 30px; text-align: center">
+            <br />Introduction
+          </h3>
           <hr class="divider" />
-          <ul>
-            <li>
-              <b><u>10/16/23 Meeting Notes</u></b
-              ><br />
-              <b>Overall:</b><br />
-              Keep the same picture at the top of all pages for consistent
-              visual presentation.<br />
-              Incorporate the airplane graphics at the bottom of the landing
-              page into other pages.<br />
 
-              <b>Home page:</b><br />
-              Combine the Home page and About Us page into a single page.<br />
-              Add another bullet point to the landing/home page,<br />
-              “This project represents a private public partnership”<br />
-              Don’t need the Meet the Architects section<br />
-              Take out the Goals section<br />
-              Thermometer should be kept on the dedicated Fundraising Updates
-              page instead of the Home page, allowing people to track its
-              growth.<br />
+          <div class="column" id="poster" style="float: right; margin-left: 10px">
+            <img src="assets/img/chirp/chirpwebpage.png" style="width: 100%; display: block; float: right" />
+          </div>
 
-              <b>Donate Page:</b><br />
-              Eggs should be colored in ChiRP! Colors.<br />
-              The layout of the Donate page should be basically the same as the
-              Cary Library Foundation’s donate page.<br />
+          <p class="mb-2" style="font-size: 18px">
+            In partnership with the Cary Library Foundation, the Youth Steam
+            Team is hosting an event where YOU have the chance to design a
+            website for the Cary Library Renovation Project (ChiRP)! This
+            event is beginner friendly. We welcome
+            <span style="color: #006aff">all students grade 5-12</span>, even
+            those who have zero experience designing websites.<br /><br />
+            Experienced mentors and hands-on training for all-levels of
+            webpage and graphic design will be available. We will teach
+            students about web design, create a website for the ChiRP project,
+            and recruit new members for the Youth STEAM Initiative.<br /><br />
+            This event is a great opportunity for students to learn new
+            skills, meet other students with similar interests, and contribute
+            to a meaningful community project!
+            <br /><br />
+          </p>
+        </div>
+        <h2 style="text-align: center; margin-top: 100px">Meeting Notes</h2>
+        <hr class="divider" />
+        <ul>
+          <li>
+            <b><u>10/16/23 Meeting Notes</u></b><br />
+            <b>Overall:</b><br />
+            Keep the same picture at the top of all pages for consistent
+            visual presentation.<br />
+            Incorporate the airplane graphics at the bottom of the landing
+            page into other pages.<br />
 
-              <b>Sponsorship Opportunities page:</b><br />
-              Change the menu heading to “Business and Organization
-              Sponsorships” instead of “Sponsorship Opportunities”.<br />
-              Top picture should be replaced with an image of someone
-              cooking.<br />
-              Reorder the current Sponsorship Opportunities page to place
-              “Businesses” before “Non-Profit” sponsorship options.<br />
-              Remove the “Donate Now” button on the current Sponsorship
-              Opportunities page.<br />
-              Take out the “Buy Tickets” link on the current Sponsorship
-              Opportunities page, as tickets won’t be sold until January.<br />
-              Create a section with the heading “Business and Non-Profit
-              Sponsorship” for the Event Details and include a button that links
-              to that section.<br />
+            <b>Home page:</b><br />
+            Combine the Home page and About Us page into a single page.<br />
+            Add another bullet point to the landing/home page,<br />
+            “This project represents a private public partnership”<br />
+            Don’t need the Meet the Architects section<br />
+            Take out the Goals section<br />
+            Thermometer should be kept on the dedicated Fundraising Updates
+            page instead of the Home page, allowing people to track its
+            growth.<br />
 
-              <b>Take Flight Gala page:</b><br />
-              The header for the Take Flight Gala should feature an image of a
-              child reading.<br />
-              Replace the placeholder text with precise event details, as the
-              current wording is unrelated to the content.<br />
-              Mention “Tickets will be on sale early January” on the Take Flight
-              Gala page next to the “Save the date!” image.<br />
-              Transfer the Information related to the Gala from the Take Flight
-              Gala Page to the Sponsorship Opportunities page, as it is more
-              relevant there.<br />
+            <b>Donate Page:</b><br />
+            Eggs should be colored in ChiRP! Colors.<br />
+            The layout of the Donate page should be basically the same as the
+            Cary Library Foundation’s donate page.<br />
 
-              <b>Donors page:</b><br />
-              Change “Individual Sponsors” from a button to a heading, as it is
-              more suitable for representing the content. It currently looks
-              like a link button.<br />
-              Instead of “Institutional Sponsors,” it should be “Businesses and
-              Non-profits.”<br />
-              Replace buttons on Donors page with headers that still function as
-              buttons to maintain a cleaner and more consistent design.<br />
+            <b>Sponsorship Opportunities page:</b><br />
+            Change the menu heading to “Business and Organization
+            Sponsorships” instead of “Sponsorship Opportunities”.<br />
+            Top picture should be replaced with an image of someone
+            cooking.<br />
+            Reorder the current Sponsorship Opportunities page to place
+            “Businesses” before “Non-Profit” sponsorship options.<br />
+            Remove the “Donate Now” button on the current Sponsorship
+            Opportunities page.<br />
+            Take out the “Buy Tickets” link on the current Sponsorship
+            Opportunities page, as tickets won’t be sold until January.<br />
+            Create a section with the heading “Business and Non-Profit
+            Sponsorship” for the Event Details and include a button that links
+            to that section.<br />
 
-              <b>Institutional Sponsors page:</b><br />
-              Add logos on the current Institutional Sponsors page.<br />
-              First list businesses and nonprofits, then show individuals.<br />
-            </li>
+            <b>Take Flight Gala page:</b><br />
+            The header for the Take Flight Gala should feature an image of a
+            child reading.<br />
+            Replace the placeholder text with precise event details, as the
+            current wording is unrelated to the content.<br />
+            Mention “Tickets will be on sale early January” on the Take Flight
+            Gala page next to the “Save the date!” image.<br />
+            Transfer the Information related to the Gala from the Take Flight
+            Gala Page to the Sponsorship Opportunities page, as it is more
+            relevant there.<br />
+
+            <b>Donors page:</b><br />
+            Change “Individual Sponsors” from a button to a heading, as it is
+            more suitable for representing the content. It currently looks
+            like a link button.<br />
+            Instead of “Institutional Sponsors,” it should be “Businesses and
+            Non-profits.”<br />
+            Replace buttons on Donors page with headers that still function as
+            buttons to maintain a cleaner and more consistent design.<br />
+
+            <b>Institutional Sponsors page:</b><br />
+            Add logos on the current Institutional Sponsors page.<br />
+            First list businesses and nonprofits, then show individuals.<br />
+          </li>
+          <br />
+          <li>
+            <b><u>9/24/23 Meeting Notes</u></b><br />
+            <b>Home Page</b><br />
+            Tasks:<br />
+            In the first subsection, change the “Learn more about us” button
+            to “Learn More About ChiRP!”<br />
+            In the first subsection, change the “Children’s Room Project &
+            Large Meeting Room Transformation” text into “Children’s Room
+            Project and Lower Level Renovation Project”<br />
+            On the bottom section (the one with the airplanes), remove the
+            links and text of “Our ChiRP! Donors” “Cary Library” “Cary Library
+            Foundation”<br />
+            Make all the fonts on the homepage the same so it looks
+            cohesive<br />
+            Notes:<br />
+            Don’t put buttons for links on the homepage that already have
+            links on the top of the website<br />
+            <b>Take Flight Gala Page</b><br />
+            Tasks:<br />
+            In the Event Details section, change the title from “Event
+            Details” to “Gala Details”<br />
+            In the Event Details section:<br />
+            “By sponsoring the Gala, your company or organization will be
+            recognized as a key member of our community and a champion of
+            literacy, learning, and libraries. Your organization’s support
+            will be recognized in front of our large audience of community
+            members. This is sure to be Lexington’s party of the year — 500
+            tickets to our 2019 Gala sold out in two weeks!”<br />
+            Paragraph should be removed from the Take Flight Gala Page into
+            the Sponsorships Opportunities Page<br />
+            Remove all the Sponsorship Information from the Take Flight Gala
+            Page into the Sponsorships Opportunities Page<br />
+            On top of the Event Details section, write “Save the date” then
+            “tickets on sale at carylibrary foundation.org in early
+            January”<br />
+            Notes:<br />
+            Remember to keep a consistent font<br />
+            Remove Sponsorship Info and put it into the sponsorship page<br />
+            <b>Sponsorships Opportunities Gala Page</b><br />
+            Tasks:<br />
+            Make it clear that the sponsorships should be coming from
+            non-profits or businesses, NOT individuals<br />
+            In the first subsection, remove the “About” button because we
+            don’t need it there<br />
+            Make a first subsection and put the “By sponsoring the Gala, your
+            company or organization will be recognized as a key member of our
+            community and a champion of literacy, learning, and libraries.
+            Your organization’s support will be recognized in front of our
+            large audience of community members. This is sure to be
+            Lexington’s party of the year — 500 tickets to our 2019 Gala sold
+            out in two weeks!” paragraph in so it gives people context<br />
+            Copy and paste the event details from the Event Gala page into the
+            Sponsorship page<br />
+          </li>
+          <br />
+          <li>
+            <b><u>9/6/23 Library Meeting Recap</u></b><br />
+            <b>Sponsorship Information:</b><br />
+            To enhance clarity, we have decided to remove the sponsors section
+            from the gala page.<br />
+            Instead, we will create separate pages for sponsorship information
+            tailored to nonprofits and businesses.<br />
+            We are also considering the inclusion of Donor Advised Fund (DAF)
+            as an additional sponsorship option.<br />
+            All detailed sponsorship information will be conveniently linked
+            to the foundation's donation/sponsor information page.<br />
+            <b>Design Enhancement:</b><br />
+            In a bid to engage our volunteers more actively, we are planning
+            to implement a system where they can vote for their preferred
+            designs, which will eventually be presented to the public.<br />
+            <b>Streamlined Links:</b><br />
+            To simplify the user experience, redundant information will be
+            replaced with intuitive links or buttons. These links will direct
+            users to the foundation's webpage, providing comprehensive
+            details.
+          </li>
+          <br />
+          <li>
+            <b><u>7/17/2023 Meeting Notes</u></b><br />
+            <b>Important Details to Consider:</b><br />
+            Duplicate your webpage for an ‘easy’ way to extend your
+            Squarespace free trial editing time<br />
+            When referring to ChiRP, refer using proper capitalization and
+            with an explanation mark: ‘ChiRP!’<br />
+            Most users use the website on their phones, so consider mobile
+            view and that users don’t scroll much<br />
+            Date of Gala: April 6<br />
+            Check Library Doc for ADA Compliance
+            (https://drive.google.com/drive/folders/1Hz3l_q9zXGDzsv0vKymADZOi1dhMcDvD)<br />
+            Incorporate pictures of kids when possible!<br />
+            <b>Squarespace Tutorials (Yuanheng, Sophia, Ethan):</b><br />
+            Interesting features & tips:
+            https://www.youtube.com/watch?v=afI1j4FLl40<br />
+            Make your website unique from templates:
+            https://www.youtube.com/watch?v=Ip18ovzNsJs<br />
+            Sophia’s document of Squarespace features (browser icon, adding
+            alt text to images, adding HTML code):
+            https://docs.google.com/document/d/1rTJjMtZJtJcpKw-LZ6_RRLwEiGsfmUlzPHT57_0Kn4U/edit?usp=sharing<br />
+            <b>Homepage:</b><br />
+            Can contain less information<br />
+            Incorporate pictures of kids as much as possible<br />
+            Will take pictures of adults soon too to convey that this project
+            is for everybody<br />
+            <b>Take Flight Gala Page:</b><br />
+            Library will design Gala tickets, poster designs, and images for
+            us to incorporate in the fall<br />
+            We started brainstorming ways to incorporate AI images into the
+            website, some of these can be added right now (see requirements
+            document for AI generated images to add)<br />
+            Display text that makes it clear tickets are on sale in January<br />
+            Instead of copy & paste, consider how to split up the text<br />
+            <b>Donate Page:</b><br />
+            Incorporate name of venmo<br />
+            Adjust mobile view<br />
+            <b>Sponsorship Opportunities Page:</b><br />
+            Has a clean and clear design<br />
+            Donate button is everywhere which is great for usability<br />
+            Don’t need to break it up between businesses and non-businesses,
+            just list the two methods to donate<br />
+            Post Sophia’s page online first once the text is adjusted, Wei
+            will follow up to reach out to Sandra<br />
+            Include corporate logos later<br />
+            <b>Donor Display Page:</b><br />
+            If there are two last names, order alphabetically by the first
+            last name<br />
+            Privacy concerns with listing amounts/ranges, so just list names
+            alphabetically instead of with amount categories<br />
+            Wei will follow up with Sandra about the ADA compliant text
+            color<br />
+            Under ‘Thanks for your support’ have two lists, one for listing
+            Individual Donors and one for Institutional Donors<br />
+            Wei will follow up to post Joley’s page soon too<br />
+            Once a month, have a process where Mary Ellen will send an updated
+            donor list
+          </li>
+          <br />
+          <li>
+            <b>7/9/2023 Meeting Notes</b><br />
+            Gala Page<br />
+
+            Insert relevant graphics from Pinterest for the Gala page<br />
+
+            Use a tree as the fundraising thermometer. <br />
+
+            Live Donor Counter vs. Updated Image:
             <br />
-            <li>
-              <b><u>9/24/23 Meeting Notes</u></b
-              ><br />
-              <b>Home Page</b><br />
-              Tasks:<br />
-              In the first subsection, change the “Learn more about us” button
-              to “Learn More About ChiRP!”<br />
-              In the first subsection, change the “Children’s Room Project &
-              Large Meeting Room Transformation” text into “Children’s Room
-              Project and Lower Level Renovation Project”<br />
-              On the bottom section (the one with the airplanes), remove the
-              links and text of “Our ChiRP! Donors” “Cary Library” “Cary Library
-              Foundation”<br />
-              Make all the fonts on the homepage the same so it looks
-              cohesive<br />
-              Notes:<br />
-              Don’t put buttons for links on the homepage that already have
-              links on the top of the website<br />
-              <b>Take Flight Gala Page</b><br />
-              Tasks:<br />
-              In the Event Details section, change the title from “Event
-              Details” to “Gala Details”<br />
-              In the Event Details section:<br />
-              “By sponsoring the Gala, your company or organization will be
-              recognized as a key member of our community and a champion of
-              literacy, learning, and libraries. Your organization’s support
-              will be recognized in front of our large audience of community
-              members. This is sure to be Lexington’s party of the year — 500
-              tickets to our 2019 Gala sold out in two weeks!”<br />
-              Paragraph should be removed from the Take Flight Gala Page into
-              the Sponsorships Opportunities Page<br />
-              Remove all the Sponsorship Information from the Take Flight Gala
-              Page into the Sponsorships Opportunities Page<br />
-              On top of the Event Details section, write “Save the date” then
-              “tickets on sale at carylibrary foundation.org in early
-              January”<br />
-              Notes:<br />
-              Remember to keep a consistent font<br />
-              Remove Sponsorship Info and put it into the sponsorship page<br />
-              <b>Sponsorships Opportunities Gala Page</b><br />
-              Tasks:<br />
-              Make it clear that the sponsorships should be coming from
-              non-profits or businesses, NOT individuals<br />
-              In the first subsection, remove the “About” button because we
-              don’t need it there<br />
-              Make a first subsection and put the “By sponsoring the Gala, your
-              company or organization will be recognized as a key member of our
-              community and a champion of literacy, learning, and libraries.
-              Your organization’s support will be recognized in front of our
-              large audience of community members. This is sure to be
-              Lexington’s party of the year — 500 tickets to our 2019 Gala sold
-              out in two weeks!” paragraph in so it gives people context<br />
-              Copy and paste the event details from the Event Gala page into the
-              Sponsorship page<br />
-            </li>
+            We need to decide whether to include a live counter of donors or
+            update the image routinely.
+
             <br />
-            <li>
-              <b><u>9/6/23 Library Meeting Recap</u></b
-              ><br />
-              <b>Sponsorship Information:</b><br />
-              To enhance clarity, we have decided to remove the sponsors section
-              from the gala page.<br />
-              Instead, we will create separate pages for sponsorship information
-              tailored to nonprofits and businesses.<br />
-              We are also considering the inclusion of Donor Advised Fund (DAF)
-              as an additional sponsorship option.<br />
-              All detailed sponsorship information will be conveniently linked
-              to the foundation's donation/sponsor information page.<br />
-              <b>Design Enhancement:</b><br />
-              In a bid to engage our volunteers more actively, we are planning
-              to implement a system where they can vote for their preferred
-              designs, which will eventually be presented to the public.<br />
-              <b>Streamlined Links:</b><br />
-              To simplify the user experience, redundant information will be
-              replaced with intuitive links or buttons. These links will direct
-              users to the foundation's webpage, providing comprehensive
-              details.
-            </li>
+
+            Brainstorming Donation Counter:<br />
+
+            Brainstorm creative ways to display the donation counter. <br />
+
+            Take Flight Gala Page:<br />
+
+            Instead of using "Make a Reservation," let's replace it with "Buy
+            Tickets" to encourage immediate ticket purchases. We should make
+            the "Buy" button hidden until January 2024, when tickets
+            officially go on sale.<br />
+
+            Consider creating a separate webpage with detailed information
+            about auction items at the gala. This will provide interested
+            attendees with a dedicated space to explore the offerings.<br />
+
+            Ways to Give:<br />
+
+            In the "Ways to Give" section, we should include Venmo as one of
+            the options. Additionally, please reach out to Mary Ellen to
+            explore other potential giving options.<br />
+
+            Sponsorship Opportunities:<br />
+
+            When presenting corporate sponsorship opportunities, let's focus
+            on both businesses and nonprofits. However, we should exclude
+            individual sponsorships.<br />
+
+            Instead of featuring a building picture, let's replace it with
+            images of children and families. This will evoke a stronger
+            emotional connection and appeal to the pathos of potential
+            sponsors.<br />
+
+            Donor Display Page:<br />
+
+            Enhance the donor display page by incorporating images. Visuals
+            will make the page more engaging and encourage continued
+            support.<br />
+
+            Consistent Design:<br />
+
+            Throughout all the pages related to the Gala, let's ensure a
+            consistent design. This consistency will create a cohesive and
+            professional impression for our website visitors.<br />
+          </li>
+          <br />
+          <li>
+            <b>7/2/2023 Meeting Notes</b><br />
+            Information
             <br />
-            <li>
-              <b><u>7/17/2023 Meeting Notes</u></b
-              ><br />
-              <b>Important Details to Consider:</b><br />
-              Duplicate your webpage for an ‘easy’ way to extend your
-              Squarespace free trial editing time<br />
-              When referring to ChiRP, refer using proper capitalization and
-              with an explanation mark: ‘ChiRP!’<br />
-              Most users use the website on their phones, so consider mobile
-              view and that users don’t scroll much<br />
-              Date of Gala: April 6<br />
-              Check Library Doc for ADA Compliance
-              (https://drive.google.com/drive/folders/1Hz3l_q9zXGDzsv0vKymADZOi1dhMcDvD)<br />
-              Incorporate pictures of kids when possible!<br />
-              <b>Squarespace Tutorials (Yuanheng, Sophia, Ethan):</b><br />
-              Interesting features & tips:
-              https://www.youtube.com/watch?v=afI1j4FLl40<br />
-              Make your website unique from templates:
-              https://www.youtube.com/watch?v=Ip18ovzNsJs<br />
-              Sophia’s document of Squarespace features (browser icon, adding
-              alt text to images, adding HTML code):
-              https://docs.google.com/document/d/1rTJjMtZJtJcpKw-LZ6_RRLwEiGsfmUlzPHT57_0Kn4U/edit?usp=sharing<br />
-              <b>Homepage:</b><br />
-              Can contain less information<br />
-              Incorporate pictures of kids as much as possible<br />
-              Will take pictures of adults soon too to convey that this project
-              is for everybody<br />
-              <b>Take Flight Gala Page:</b><br />
-              Library will design Gala tickets, poster designs, and images for
-              us to incorporate in the fall<br />
-              We started brainstorming ways to incorporate AI images into the
-              website, some of these can be added right now (see requirements
-              document for AI generated images to add)<br />
-              Display text that makes it clear tickets are on sale in January<br />
-              Instead of copy & paste, consider how to split up the text<br />
-              <b>Donate Page:</b><br />
-              Incorporate name of venmo<br />
-              Adjust mobile view<br />
-              <b>Sponsorship Opportunities Page:</b><br />
-              Has a clean and clear design<br />
-              Donate button is everywhere which is great for usability<br />
-              Don’t need to break it up between businesses and non-businesses,
-              just list the two methods to donate<br />
-              Post Sophia’s page online first once the text is adjusted, Wei
-              will follow up to reach out to Sandra<br />
-              Include corporate logos later<br />
-              <b>Donor Display Page:</b><br />
-              If there are two last names, order alphabetically by the first
-              last name<br />
-              Privacy concerns with listing amounts/ranges, so just list names
-              alphabetically instead of with amount categories<br />
-              Wei will follow up with Sandra about the ADA compliant text
-              color<br />
-              Under ‘Thanks for your support’ have two lists, one for listing
-              Individual Donors and one for Institutional Donors<br />
-              Wei will follow up to post Joley’s page soon too<br />
-              Once a month, have a process where Mary Ellen will send an updated
-              donor list
-            </li>
+            Be careful about the other information of ChiRP. <br />
+
+            Start modifying the actual site after being familiar with
+            Squarespace<br />
+
+            Include poster and color palette as well as accessibility on the
+            ChiRP Project website <br />
+
+            TODOs:<br />
+
+            Start the language of each page early so that Mary Ellen can
+            revise it, revision cycle<br />
+
+            Share a google doc of the language (language for each section and
+            each page) Lillian takes lead on language<br />
+
+            Link ChiRP in the news: article about ChiRP (insert link) <br />
+
+            Irene create google doc, follow up with Lillian<br />
+
+            Joley/Ivy lead on graphic design section<br />
+
+            Joley → 8 donors design<br />
+
+            Gala looks more mature/minimalistic as opposed to childlike<br />
+
+            Fundraising Updates put the thermometer on, interesting language →
+            keep updated to show our progress (Yuanheng collab with Joley)<br />
+
+            Must have a rough draft by next Sunday<br />
+
+            Setting up meeting time: likely weekends (Sunday) between 5-7pm.
             <br />
-            <li>
-              <b>7/9/2023 Meeting Notes</b><br />
-              Gala Page<br />
+          </li>
+          <br />
+          <li>
+            <b>6/10/2023 Meeting Notes</b><br />
 
-              Insert relevant graphics from Pinterest for the Gala page<br />
+            To Do’s to be completed ASAP:<br />
 
-              Use a tree as the fundraising thermometer. <br />
+            Set up group email address (ChiRP members only)<br />
 
-              Live Donor Counter vs. Updated Image:
-              <br />
-              We need to decide whether to include a live counter of donors or
-              update the image routinely.
+            Set up weekly meetings (apart from weekly project meetings)<br />
 
-              <br />
+            Set up meeting with Sandra to discuss Squarespace<br /><br /><br />
 
-              Brainstorming Donation Counter:<br />
+            Website specificities:<br />
 
-              Brainstorm creative ways to display the donation counter. <br />
+            1st stage must be completed by AUGUST 14th<br />
 
-              Take Flight Gala Page:<br />
+            Currently envision the website with drop down menus on the side<br />
 
-              Instead of using "Make a Reservation," let's replace it with "Buy
-              Tickets" to encourage immediate ticket purchases. We should make
-              the "Buy" button hidden until January 2024, when tickets
-              officially go on sale.<br />
+            The ChiRP website should be graphically engaging<br />
 
-              Consider creating a separate webpage with detailed information
-              about auction items at the gala. This will provide interested
-              attendees with a dedicated space to explore the offerings.<br />
+            Adhere to the wireframe (link: Wireframe beginning_CHIRP.v3..xlsx
+            )<br />
 
-              Ways to Give:<br />
+            Use https://carylibrary.org/ ChiRP page as a template, further
+            text will be provided along with architecture drawings<br />
 
-              In the "Ways to Give" section, we should include Venmo as one of
-              the options. Additionally, please reach out to Mary Ellen to
-              explore other potential giving options.<br />
+            Two stages: development and deployment stage<br />
 
-              Sponsorship Opportunities:<br />
+            Must ensure that the website created can be adjusted across all
+            platforms and devices<br />
 
-              When presenting corporate sponsorship opportunities, let's focus
-              on both businesses and nonprofits. However, we should exclude
-              individual sponsorships.<br />
+            Square space also provide html css and javascript, can incorporate
+            in later phases<br />
 
-              Instead of featuring a building picture, let's replace it with
-              images of children and families. This will evoke a stronger
-              emotional connection and appeal to the pathos of potential
-              sponsors.<br />
+            Page specific:<br />
 
-              Donor Display Page:<br />
-
-              Enhance the donor display page by incorporating images. Visuals
-              will make the page more engaging and encourage continued
-              support.<br />
-
-              Consistent Design:<br />
-
-              Throughout all the pages related to the Gala, let's ensure a
-              consistent design. This consistency will create a cohesive and
-              professional impression for our website visitors.<br />
-            </li>
+            1st page drop down menu: general fundraising update
             <br />
-            <li>
-              <b>7/2/2023 Meeting Notes</b><br />
-              Information
-              <br />
-              Be careful about the other information of ChiRP. <br />
-
-              Start modifying the actual site after being familiar with
-              Squarespace<br />
-
-              Include poster and color palette as well as accessibility on the
-              ChiRP Project website <br />
-
-              TODOs:<br />
-
-              Start the language of each page early so that Mary Ellen can
-              revise it, revision cycle<br />
-
-              Share a google doc of the language (language for each section and
-              each page) Lillian takes lead on language<br />
-
-              Link ChiRP in the news: article about ChiRP (insert link) <br />
-
-              Irene create google doc, follow up with Lillian<br />
-
-              Joley/Ivy lead on graphic design section<br />
-
-              Joley → 8 donors design<br />
-
-              Gala looks more mature/minimalistic as opposed to childlike<br />
-
-              Fundraising Updates put the thermometer on, interesting language →
-              keep updated to show our progress (Yuanheng collab with Joley)<br />
-
-              Must have a rough draft by next Sunday<br />
-
-              Setting up meeting time: likely weekends (Sunday) between 5-7pm.
-              <br />
-            </li>
+            Link to library donate page
             <br />
-            <li>
-              <b>6/10/2023 Meeting Notes</b><br />
+            Tickets won’t be on sale until January 2nd, there’s a distinction
+            between early bird price ($125 which will last for two weeks),
+            will be update throughout January
+            <br />
+            Hope to make money through the Gala
+            <br />
+            Ask local business and give them recognition benefits (sponsorship
+            opportunities)
+            <br />
+            Link to sponsor website<br />
 
-              To Do’s to be completed ASAP:<br />
+            Corporate sponsors can have linkable logos and split into tiers,
+            differs from individual sponsors <br />
 
-              Set up group email address (ChiRP members only)<br />
+            Last page: creative ways to garner support<br />
 
-              Set up weekly meetings (apart from weekly project meetings)<br />
+            Must have consistent design from the beginning, also must follow
+            guidelines for accessibility, use consistent color. <br />
 
-              Set up meeting with Sandra to discuss Squarespace<br /><br /><br />
-
-              Website specificities:<br />
-
-              1st stage must be completed by AUGUST 14th<br />
-
-              Currently envision the website with drop down menus on the side<br />
-
-              The ChiRP website should be graphically engaging<br />
-
-              Adhere to the wireframe (link: Wireframe beginning_CHIRP.v3..xlsx
-              )<br />
-
-              Use https://carylibrary.org/ ChiRP page as a template, further
-              text will be provided along with architecture drawings<br />
-
-              Two stages: development and deployment stage<br />
-
-              Must ensure that the website created can be adjusted across all
-              platforms and devices<br />
-
-              Square space also provide html css and javascript, can incorporate
-              in later phases<br />
-
-              Page specific:<br />
-
-              1st page drop down menu: general fundraising update
-              <br />
-              Link to library donate page
-              <br />
-              Tickets won’t be on sale until January 2nd, there’s a distinction
-              between early bird price ($125 which will last for two weeks),
-              will be update throughout January
-              <br />
-              Hope to make money through the Gala
-              <br />
-              Ask local business and give them recognition benefits (sponsorship
-              opportunities)
-              <br />
-              Link to sponsor website<br />
-
-              Corporate sponsors can have linkable logos and split into tiers,
-              differs from individual sponsors <br />
-
-              Last page: creative ways to garner support<br />
-
-              Must have consistent design from the beginning, also must follow
-              guidelines for accessibility, use consistent color. <br />
-
-              Donating through venmo<br />
-            </li>
-          </ul>
-          <div class="card card-body">
-            <section
-              class="page-section"
-              style="padding-top: 1.5rem"
-              id="services"
-            >
-              <div class="container px-4 px-lg-5">
-                <h2 style="text-align: center; margin-top: 50px">Advisors</h2>
-                <hr class="divider" />
-                <div class="col-lg-auto col-md-auto text-center">
-                  <div class="row">
-                    <div class="mt-5 col-sm-6 col-md-4 col-12">
-                      <img
-                        src="images/Wei.jpg"
-                        class="teamimage advisor"
-                        alt="Wei Ding"
-                      />
-                      <h3 class="text-center mb-2 h4">Wei Ding</h3>
-                    </div>
-                    <div class="mt-5 col-sm-6 col-md-4 col-12">
-                      <img
-                        src="images/ann.png"
-                        class="teamimage advisor"
-                        alt="Ann"
-                      />
-                    </div>
-                    <div class="mt-5 col-sm-6 col-md-4 col-12">
-                      <img
-                        src="images/sandra.png"
-                        class="teamimage advisor"
-                        alt="Sandra"
-                      />
-                    </div>
-                    <div class="mt-5 col-sm-6 col-md-4 col-12">
-                      <img
-                        src="images/liz.png"
-                        class="teamimage advisor"
-                        alt="Liz"
-                      />
-                    </div>
-                    <div class="mt-5 col-sm-6 col-md-4 col-12">
-                      <img
-                        src="images/uh.png"
-                        class="teamimage advisor"
-                        alt="Mary"
-                      />
-                      <h3 class="text-center mb-2 h4">Mary Ellen Ringo</h3>
-                    </div>
+            Donating through venmo<br />
+          </li>
+        </ul>
+        <div class="card card-body">
+          <section class="page-section" style="padding-top: 1.5rem" id="services">
+            <div class="container px-4 px-lg-5">
+              <h2 style="text-align: center; margin-top: 50px">Advisors</h2>
+              <hr class="divider" />
+              <div class="col-lg-auto col-md-auto text-center">
+                <div class="row">
+                  <div class="mt-5 col-sm-6 col-md-4 col-12">
+                    <img src="images/Wei.jpg" class="teamimage advisor" alt="Wei Ding" />
+                    <h3 class="text-center mb-2 h4">Wei Ding</h3>
+                  </div>
+                  <div class="mt-5 col-sm-6 col-md-4 col-12">
+                    <img src="images/ann.png" class="teamimage advisor" alt="Ann" />
+                  </div>
+                  <div class="mt-5 col-sm-6 col-md-4 col-12">
+                    <img src="images/sandra.png" class="teamimage advisor" alt="Sandra" />
+                  </div>
+                  <div class="mt-5 col-sm-6 col-md-4 col-12">
+                    <img src="images/liz.png" class="teamimage advisor" alt="Liz" />
+                  </div>
+                  <div class="mt-5 col-sm-6 col-md-4 col-12">
+                    <img src="images/uh.png" class="teamimage advisor" alt="Mary" />
+                    <h3 class="text-center mb-2 h4">Mary Ellen Ringo</h3>
                   </div>
                 </div>
               </div>
-            </section>
-          </div>
-          <h2 style="text-align: center; margin-top: 100px">Resources</h2>
-          <hr class="divider" />
-          <iframe
-            src="https://drive.google.com/embeddedfolderview?id=1Hz3l_q9zXGDzsv0vKymADZOi1dhMcDvD#grid"
-            style="width: 100%; height: 600px; border: 0"
-          ></iframe>
-          <br /><br />
+            </div>
+          </section>
         </div>
+        <h2 style="text-align: center; margin-top: 100px">Resources</h2>
+        <hr class="divider" />
+        <iframe src="https://drive.google.com/embeddedfolderview?id=1Hz3l_q9zXGDzsv0vKymADZOi1dhMcDvD#grid"
+          style="width: 100%; height: 600px; border: 0"></iframe>
+        <br /><br />
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer class="bg-light py-5">
-      <div class="container px-4 px-lg-5">
-        <div class="small text-center text-muted">
-          Copyright &copy; <span id="year"></span> - Youth STEAM Initiative
-        </div><br>
-        <div class="small text-center text-muted" >
-          <a href="https://www.facebook.com/people/Youth-STEAM-Team/61569154958515/" target="_blank"><i
-              style="font-size:1.5em; margin:10px;color:rgb(80, 129, 229);" class="bi-facebook"></i></a>
-          <a href="https://www.instagram.com/youth.steam.initiative/" target="_blank"><i style="font-size:1.5em;margin:10px;color:rgb(80, 129, 229);"
-              class="bi-instagram"></i></a>
-          <a href="mailto:lyst.connect@gmail.com" target="_blank"><i style="font-size:1.5em;margin:10px;color:rgb(80, 129, 229);" class="bi-envelope"></i></a>
-        </div>
-    </footer>
+  <footer class="bg-light py-5">
+    <div class="container px-4 px-lg-5">
+      <div class="small text-center text-muted">
+        Copyright &copy; <span id="year"></span> - Youth STEAM Initiative
+      </div>
+      <br />
+      <div class="small text-center text-muted">
+        <a href="https://www.facebook.com/people/Youth-STEAM-Team/61569154958515/" target="_blank"><i
+            style="font-size: 1.5em; margin: 10px; color: rgb(80, 129, 229)" class="bi-facebook"></i></a>
+        <a href="https://www.instagram.com/youth.steam.initiative/" target="_blank"><i
+            style="font-size: 1.5em; margin: 10px; color: rgb(80, 129, 229)" class="bi-instagram"></i></a>
+        <a href="mailto:lyst.connect@gmail.com" target="_blank"><i
+            style="font-size: 1.5em; margin: 10px; color: rgb(80, 129, 229)" class="bi-envelope"></i></a>
+      </div>
+      <br />
+      <div class="small text-center text-muted">
+        <a href="visitorcount.html" style="color: white; background-color: rgb(80, 129, 229)" class="btn">
+          <i class="bi bi-people-fill me-1"></i> View Visitor Count
+        </a>
+      </div>
+    </div>
+  </footer>
 
-    <script>
-      // JavaScript to dynamically insert the current year
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
+  <script>
+    // JavaScript to dynamically insert the current year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 
-    <script src="components/nav-component.js" type="text/javascript"></script>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- SimpleLightbox plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-  </body>
+  <script src="components/nav-component.js" type="text/javascript"></script>
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- SimpleLightbox plugin JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <!-- * *                               SB Forms JS                               * *-->
+  <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
 </html>
