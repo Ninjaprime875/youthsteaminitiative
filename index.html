@@ -127,18 +127,19 @@
           <hr class="divider" />
           <p class="text-muted mb-0" style="margin: auto; width: 80%">
             We are a group of students passionate about STEAM who want to
-            contribute to our community! In this team we emphasize
-            collaboration, perseverance, dedication and kindness. We work
-            efficiently together and build upon our teamwork skills to gain the
-            most from every learning experience, hoping to make a difference in
-            our communities.
+            contribute to our community! In this team, we emphasize
+            collaboration, perseverance, dedication, and kindness. We use our
+            free technological solutions to empower local nonprofits, public
+            institutions, and town governments in the Boston area, hoping to
+            make a meaningful impact and inspire the next generation of
+            problem-solvers.
           </p>
           <br /><br />
           <h2 id="Mission">Our Mission</h2>
           <hr class="divider" />
           <p class="text-muted mb-0" style="margin: auto; width: 80%">
-            Our mission is to strengthen the bonds of the community through the
-            development of innovative computer science projects.
+            Our mission is to support our community through the development of
+            innovative computer science projects.
           </p>
         </section>
         <section class="page-section" id="services">
@@ -149,7 +150,7 @@
               <div class="col-lg-4 col-md-6 text-center">
                 <div class="mt-5">
                   <div class="mb-2">
-                    <i class="bi-gem fs-1 text-primary"></i>
+                    <i class="bi-gem fs-1" style="color: #d4ad00"></i>
                   </div>
                   <h3 class="h4 mb-2">View Past Presentations</h3>
                   <p class="text-muted mb-0">
@@ -161,7 +162,7 @@
               <div class="col-lg-4 col-md-6 text-center">
                 <div class="mt-5">
                   <div class="mb-2">
-                    <i class="bi-laptop fs-1 text-primary"></i>
+                    <i class="bi-laptop fs-1" style="color: #d4ad00"></i>
                   </div>
                   <h3 class="h4 mb-2">Learn About Various Topics</h3>
                   <p class="text-muted mb-0">
@@ -172,7 +173,7 @@
               <div class="col-lg-4 col-md-6 text-center">
                 <div class="mt-5">
                   <div class="mb-2">
-                    <i class="bi-globe fs-1 text-primary"></i>
+                    <i class="bi-globe fs-1" style="color: #d4ad00"></i>
                   </div>
                   <h3 class="h4 mb-2">See Examples</h3>
                   <p class="text-muted mb-0">
@@ -210,7 +211,7 @@
                       alt="Lexington Budget Chatbot"
                     />
                     <div class="card-body text-center equal-height">
-                      <h5 class="card-title text-primary">
+                      <h5 class="card-title">
                         Lexington Budget Chatbot
                       </h5>
                     </div>
@@ -231,7 +232,7 @@
                       alt="Ellen Stone Building"
                     />
                     <div class="card-body text-center equal-height">
-                      <h5 class="card-title text-primary">Lexington Lyceum</h5>
+                      <h5 class="card-title">Lexington Lyceum</h5>
                     </div>
                   </a>
                 </div>
@@ -250,7 +251,7 @@
                       alt="Lexington Heroes Plaque"
                     />
                     <div class="card-body text-center equal-height">
-                      <h5 class="card-title text-primary">Lexington Heroes</h5>
+                      <h5 class="card-title">Lexington Heroes</h5>
                     </div>
                   </a>
                 </div>
@@ -290,6 +291,16 @@
             ></i
           ></a>
         </div>
+        <br />
+        <div class="small text-center text-muted">
+          <a
+            href="visitorcount.html"
+            style="color: white; background-color: rgb(80, 129, 229)"
+            class="btn"
+          >
+            <i class="bi bi-people-fill me-1"></i> View Visitor Count
+          </a>
+        </div>
       </div>
     </footer>
     <script>
@@ -299,33 +310,37 @@
     <!-- Firebase SDK -->
     <script type="module">
       import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
-      import { getDatabase, ref, runTransaction } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js";
-      import { firebaseConfig } from "./js/firebase-config.js";  
-    
+      import {
+        getDatabase,
+        ref,
+        runTransaction,
+      } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js";
+      import { firebaseConfig } from "./js/firebase-config.js";
+
       // Initialize Firebase
       const app = initializeApp(firebaseConfig);
       const database = getDatabase(app);
       const visitorRef = ref(database, "visitorCount");
-    
+
       // Function to handle visitor count update
       const incrementVisitorCount = async () => {
         try {
           await runTransaction(visitorRef, (currentCount) => {
             return (currentCount || 0) + 1;
           });
-          // Store the flag in localStorage 
+          // Store the flag in localStorage
           localStorage.setItem("hasVisited", "true");
         } catch (error) {
           console.error("Error updating visitor count:", error);
         }
       };
-    
+
       // Check if the user has visited using localStorage
       if (!localStorage.getItem("hasVisited")) {
         incrementVisitorCount();
       }
     </script>
-    
+
     <script src="components/nav-component.js" type="text/javascript"></script>
     <!-- Bootstrap core JS-->
     <script
