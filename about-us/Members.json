@@ -230,12 +230,12 @@
             "csExperience": "Java, C++, and some Python"
         },
         {
-            "imageLink": "AndrewPanPlaceholder",
+            "imageLink": "AndrewPan.jpg",
             "firstName": "Andrew",
             "lastName": "Pan",
-            "grade": "placeholder",
-            "hobbies": "placeholder",
-            "csExperience": "placeholder"
+            "grade": "10",
+            "hobbies": "Programming, robotics, tennis",
+            "csExperience": "Java"
         },
         {
             "imageLink": "AndrewZhao.jpg",
