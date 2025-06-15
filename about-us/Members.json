@@ -79,7 +79,7 @@
             "imageLink": "YuanhengMao.jpg",
             "firstName": "Yuanheng",
             "lastName": "Mao",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "Track, Raspberry Pi/Arduino Robotics, Cooking, Reading",
             "csExperience": "Java, Python, Processing, HTML, CSS, JavaScript"
         },
@@ -87,7 +87,7 @@
             "imageLink": "EthanShao.jpg",
             "firstName": "Ethan",
             "lastName": "Shao",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "Robotics, Biking, Chess, Cooking, Playing Guitar",
             "csExperience": "Python, HTML, CSS, C++, Java"
         },
@@ -103,7 +103,7 @@
             "imageLink": "EmmaHe.jpeg",
             "firstName": "Emma",
             "lastName": "He",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "Dance, Flute, Poetry",
             "csExperience": "Python & Java"
         },
@@ -111,7 +111,7 @@
             "imageLink": "LillianYang.jpg",
             "firstName": "Lillian",
             "lastName": "Yang",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "Debate, Piano, and Skating",
             "csExperience": "HTML, Java"
         },
@@ -119,7 +119,7 @@
             "imageLink": "ClaireLiu.jpg",
             "firstName": "Claire",
             "lastName": "Liu",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "Dance, flute, read, draw",
             "csExperience": "Java, Python, HTML"
         },
@@ -127,7 +127,7 @@
             "imageLink": "SophiaZhou.jpeg",
             "firstName": "Sophia",
             "lastName": "Zhou",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "I enjoy reading and playing video games.",
             "csExperience": "Python, Java, Javascript"
         },
@@ -135,7 +135,7 @@
             "imageLink": "JoleyLeung.png",
             "firstName": "Joley",
             "lastName": "Leung",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "Doodling, Baking and Dancing",
             "csExperience": "Photoshop, Illustrator, Java, Python"
         },
@@ -143,7 +143,7 @@
             "imageLink": "JerryXu.jpg",
             "firstName": "Jerry",
             "lastName": "Xu",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "math, biology, history, MTG, ping-pong, hiking",
             "csExperience": "Java, Python, HTML, CSS, JavaScript, AI-related technologies (RAG and ReAct Agent), arduino"
         },
@@ -151,7 +151,7 @@
             "imageLink": "JustinWang.jpg",
             "firstName": "Justin",
             "lastName": "Wang",
-            "grade": "10",
+            "grade": "11",
             "hobbies": "Fencing, photography",
             "csExperience": "JavaScript for web dev, Python for competitive programming"
         }
@@ -169,7 +169,7 @@
             "imageLink": "StephenYang.JPG",
             "firstName": "Stephen",
             "lastName": "Yang",
-            "grade": "8",
+            "grade": "9",
             "hobbies": "Piano, Saxophone, Soccer, Basketball, Swimming, Tennis, Reading, Biking",
             "csExperience": "HTML, CSS, A bit of JS and Python"
         },
@@ -177,7 +177,7 @@
             "imageLink": "WilliamYang.jpeg",
             "firstName": "William",
             "lastName": "Yang",
-            "grade": "9",
+            "grade": "10",
             "hobbies": "I love playing tennis, keeping saltwater aquariums, playing the cello, and playing video games.",
             "csExperience": "Java, Python"
         },
@@ -185,7 +185,7 @@
             "imageLink": "AndrewGu.png",
             "firstName": "Andrew",
             "lastName": "Gu",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "Soccer, Track & Field",
             "csExperience": "Java, C++"
         },
@@ -193,7 +193,7 @@
             "imageLink": "AndrewZhang.png",
             "firstName": "Andrew",
             "lastName": "Zhang",
-            "grade": "9",
+            "grade": "10",
             "hobbies": "Track, Baking, Playing the cello",
             "csExperience": "Java, C++"
         },
@@ -201,7 +201,7 @@
             "imageLink": "Isabella.jpeg",
             "firstName": "Isabella",
             "lastName": "Li",
-            "grade": "10",
+            "grade": "11",
             "hobbies": "music, learning languages, anime",
             "csExperience": "C++, Python, HTML, CSS"
         },
@@ -209,7 +209,7 @@
             "imageLink": "JasmineGu.jpg",
             "firstName": "Jasmine",
             "lastName": "Gu",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "violin, spending time with friends, watching documentaries",
             "csExperience": "Java, C++, Python, HTML"
         },
@@ -217,7 +217,7 @@
             "imageLink": "JiaweiLiu.jpg",
             "firstName": "Jiawei",
             "lastName": "Liu",
-            "grade": "8",
+            "grade": "9",
             "hobbies": "Math, Basketball, Geography, Swimming, Badminton, Ping Pong, Writing, Piano",
             "csExperience": "Python, HTML"
         },
@@ -225,15 +225,23 @@
             "imageLink": "MichaelHe.jpeg",
             "firstName": "Michael",
             "lastName": "He",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "coding, math, track and field, and reading",
             "csExperience": "Java, C++, and some Python"
+        },
+        {
+            "imageLink": "Taku.png",
+            "firstName": "Taku",
+            "lastName": "Ishibashi",
+            "grade": "10",
+            "hobbies": "Coding, Basketball, Game Development, Lifting",
+            "csExperience": "Python, HTML, C#"
         },
         {
             "imageLink": "AndrewPan.jpg",
             "firstName": "Andrew",
             "lastName": "Pan",
-            "grade": "10",
+            "grade": "11",
             "hobbies": "Programming, robotics, tennis",
             "csExperience": "C++, Python"
         },
@@ -241,7 +249,7 @@
             "imageLink": "AndrewZhao.jpg",
             "firstName": "Andrew",
             "lastName": "Zhao",
-            "grade": "9",
+            "grade": "10",
             "hobbies": "Volleyball, camping, fishing",
             "csExperience": "Java, C++"
         }
