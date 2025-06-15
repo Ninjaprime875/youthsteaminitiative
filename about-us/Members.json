@@ -68,19 +68,11 @@
     ],
     "leader": [
         {
-            "imageLink": "WilliamZhang.jpg",
-            "firstName": "William",
-            "lastName": "Zhang",
-            "grade": "12",
-            "hobbies": "I'm a senior at Lexington High School who specializes in mobile app development using React Native, and machine learning with TensorFlow. In my free time, I enjoy running track and cross-country, playing the violin, and journaling.",
-            "csExperience": "Java (Swing, JavaFX, Spring), C++ (standard library), Python (numpy and pandas libraries)"
-        },
-        {
             "imageLink": "YuanhengMao.jpg",
             "firstName": "Yuanheng",
             "lastName": "Mao",
             "grade": "12",
-            "hobbies": "Track, Raspberry Pi/Arduino Robotics, Cooking, Reading",
+            "hobbies": "Track, Raspberry Pi/Arduino Robotics, Coding, Cooking, Reading",
             "csExperience": "Java, Python, Processing, HTML, CSS, JavaScript"
         },
         {
@@ -90,14 +82,6 @@
             "grade": "12",
             "hobbies": "Robotics, Biking, Chess, Cooking, Playing Guitar",
             "csExperience": "Python, HTML, CSS, C++, Java"
-        },
-        {
-            "imageLink": "KevinZhu.jpg",
-            "firstName": "Kevin",
-            "lastName": "Zhu",
-            "grade": "12",
-            "hobbies": "3D Printing, Soccer",
-            "csExperience": "JavaScript/TypeScript for web dev, C++ for competitive programming"
         },
         {
             "imageLink": "EmmaHe.jpeg",
@@ -161,7 +145,7 @@
             "imageLink": "RenLin.jpeg",
             "firstName": "Ren",
             "lastName": "Lin",
-            "grade": "10",
+            "grade": "11",
             "hobbies": "Volleyball, Web and Game Dev",
             "csExperience": "Java, C++, and C#"
         },
