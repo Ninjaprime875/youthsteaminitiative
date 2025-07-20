@@ -226,6 +226,23 @@
           "name": "HW Files"
         }
       ]
+    },
+    {
+      "Date": "7/12/2025",
+      "Topic": "AI Ethics",
+      "Presenter": "Taku Ishibashi",
+      "Description": "Introduction/Internal Training on the AI Ethics Project",
+      "Link": "https://docs.google.com/presentation/d/1zHPZS_F8Ia0O_k_bbpnjjr7sNVGYL9_9oXTBlRdZtgc/edit?slide=id.g36eb6742883_2_147#slide=id.g36eb6742883_2_147",
+      "Resources": [
+        {
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSe3KxuIlOu-UoD1sTIRe-PdjMUEUVewPMx7ACoRrX4GsBWtmw/viewform",
+          "name": "HW Form"
+        },
+        {
+          "url": "https://youtu.be/uCWgUwaMy9U",
+          "name": "Video Lecture"
+        }
+      ]
     }
   ]
 }
