@@ -243,6 +243,19 @@
           "name": "Video Lecture"
         }
       ]
+    },
+    {
+      "Date": "7/19/2025",
+      "Topic": "AI Ethics Part 2",
+      "Presenter": "Justin Wang",
+      "Description": "AI Ethics and its implications + future directions",
+      "Link": "https://docs.google.com/presentation/d/1pkTfdYWKYTUP5esF97OMwARwVD4-RDoiI9zlzpzoF1E/edit?usp=sharing",
+      "Resources": [
+        {
+          "url": "https://youtu.be/28b8XhQ8zIw",
+          "name": "Video Lecture"
+        }
+      ]
     }
   ]
 }
