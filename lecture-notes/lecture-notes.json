@@ -252,7 +252,24 @@
       "Link": "https://docs.google.com/presentation/d/1pkTfdYWKYTUP5esF97OMwARwVD4-RDoiI9zlzpzoF1E/edit?usp=sharing",
       "Resources": [
         {
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSdDalpDorUW42ciTkxuCXO_PIUio8D3GKRvYHLUfm2MBcYFeg/viewform",
+          "name": "HW Form"
+        },
+        {
           "url": "https://youtu.be/28b8XhQ8zIw",
+          "name": "Video Lecture"
+        }
+      ]
+    },
+    {
+      "Date": "7/26/2025",
+      "Topic": "Projection Mapping",
+      "Presenter": "Claire Liu",
+      "Description": "Key components of projection mapping process & introduction to mapping content creation",
+      "Link": "https://docs.google.com/presentation/d/18y2-KFQpIe3eHk8Y_oKJfOLITMOOHe5IHgPINLc8XDs/edit?usp=sharing",
+      "Resources": [
+        {
+          "url": "https://youtu.be/EzLIuOceMKg",
           "name": "Video Lecture"
         }
       ]
