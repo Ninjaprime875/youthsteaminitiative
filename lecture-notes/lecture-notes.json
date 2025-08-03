@@ -265,11 +265,24 @@
       "Date": "7/26/2025",
       "Topic": "Projection Mapping",
       "Presenter": "Claire Liu",
-      "Description": "Key components of projection mapping process & introduction to mapping content creation",
+      "Description": "Projection mapping process & intro to mapping content creation (HW included at the end)",
       "Link": "https://docs.google.com/presentation/d/18y2-KFQpIe3eHk8Y_oKJfOLITMOOHe5IHgPINLc8XDs/edit?usp=sharing",
       "Resources": [
         {
           "url": "https://youtu.be/EzLIuOceMKg",
+          "name": "Video Lecture"
+        }
+      ]
+    },
+    {
+      "Date": "8/2/2025",
+      "Topic": "How to Animate",
+      "Presenter": "Joley Leung",
+      "Description": "Two methods of animation (HW included at the end)",
+      "Link": "https://youtu.be/TkTGc2et8GU",
+      "Resources": [
+        {
+          "url": "https://youtu.be/TkTGc2et8GU",
           "name": "Video Lecture"
         }
       ]
