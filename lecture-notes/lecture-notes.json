@@ -286,6 +286,19 @@
           "name": "Video Lecture"
         }
       ]
+    },
+    {
+      "Date": "8/9/2025",
+      "Topic": "Using Midjourney",
+      "Presenter": "Andrew Pan",
+      "Description": "Generating Images and Videos in Midjourney",
+      "Link": "https://www.midjourney.com/",
+      "Resources": [
+        {
+          "url": "https://youtu.be/zkK8MNbySeo",
+          "name": "Video Lecture"
+        }
+      ]
     }
   ]
 }
