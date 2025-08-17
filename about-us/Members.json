@@ -154,8 +154,8 @@
             "firstName": "Stephen",
             "lastName": "Yang",
             "grade": "9",
-            "hobbies": "Piano, Saxophone, Soccer, Basketball, Swimming, Tennis, Reading, Biking",
-            "csExperience": "HTML, CSS, A bit of JS and Python"
+            "hobbies": "Piano, Basketball, Swimming, Coding, Reading",
+            "csExperience": "Web dev, Java, Making apps, Python, Machine learning"
         },
         {
             "imageLink": "WilliamYang.jpeg",
