@@ -299,6 +299,19 @@
           "name": "Video Lecture"
         }
       ]
+    },
+    {
+      "Date": "8/16/2025",
+      "Topic": "Canva AI Animation",
+      "Presenter": "Isabella Li",
+      "Description": "Use Canva's AI features and make a text animation",
+      "Link": "https://www.canva.com/design/DAGwRpBRa0A/egA0YPJRMS__gsjasGQ-9Q/edit?utm_content=DAGwRpBRa0A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+      "Resources": [
+        {
+          "url": "https://youtu.be/1v3xQkVkZhQ",
+          "name": "Video Lecture"
+        }
+      ]
     }
   ]
 }
