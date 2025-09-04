@@ -124,6 +124,14 @@
             "csExperience": "Photoshop, Illustrator, Java, Python"
         },
         {
+            "imageLink": "WilliamYang.jpeg",
+            "firstName": "William",
+            "lastName": "Yang",
+            "grade": "10",
+            "hobbies": "I love playing tennis, keeping saltwater aquariums, playing the cello, and playing video games.",
+            "csExperience": "Java, Python"
+        },
+        {
             "imageLink": "JerryXu.jpg",
             "firstName": "Jerry",
             "lastName": "Xu",
@@ -156,14 +164,6 @@
             "grade": "9",
             "hobbies": "Piano, Basketball, Swimming, Coding, Reading",
             "csExperience": "Web dev, Java, Making apps, Python, Machine learning"
-        },
-        {
-            "imageLink": "WilliamYang.jpeg",
-            "firstName": "William",
-            "lastName": "Yang",
-            "grade": "10",
-            "hobbies": "I love playing tennis, keeping saltwater aquariums, playing the cello, and playing video games.",
-            "csExperience": "Java, Python"
         },
         {
             "imageLink": "AndrewGu.png",
