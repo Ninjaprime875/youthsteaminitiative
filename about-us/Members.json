@@ -190,6 +190,14 @@
             "csExperience": "C++, Python, HTML, CSS"
         },
         {
+            "imageLink": "Angelina.jpg",
+            "firstName": "Angelina",
+            "lastName": "Ding",
+            "grade": "7",
+            "hobbies": "Dance, Math, Science, Geography, Music, Piano, Writing",
+            "csExperience": "Logics, Problem Solving"
+        },
+        {
             "imageLink": "JasmineGu.jpg",
             "firstName": "Jasmine",
             "lastName": "Gu",
