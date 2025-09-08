@@ -312,6 +312,19 @@
           "name": "Video Lecture"
         }
       ]
+    },
+    {
+      "Date": "8/30/2025",
+      "Topic": "AI in Imaging and Podcast Generation",
+      "Presenter": "William Yang",
+      "Description": "Explore tools like Tensorflow and Mobilenet and learning new ways to study with AI",
+      "Link": "https://docs.google.com/presentation/d/1lIFupH7Kknk70JdG7KUMIlqrjkePbJMlkh33uhQJIZI/edit?slide=id.g378023ee641_0_0#slide=id.g378023ee641_0_0",
+      "Resources": [
+        {
+          "url": "https://youtu.be/e9Z9aJsNSxk",
+          "name": "Video Lecture"
+        }
+      ]
     }
   ]
 }
