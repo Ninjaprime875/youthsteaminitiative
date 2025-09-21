@@ -140,6 +140,14 @@
             "csExperience": "Java, Python, HTML, CSS, JavaScript, AI-related technologies (RAG and ReAct Agent), arduino"
         },
         {
+            "imageLink": "JasmineGu.jpg",
+            "firstName": "Jasmine",
+            "lastName": "Gu",
+            "grade": "12",
+            "hobbies": "violin, spending time with friends, watching documentaries",
+            "csExperience": "Java, C++, Python, HTML"
+        },
+        {
             "imageLink": "JustinWang.jpg",
             "firstName": "Justin",
             "lastName": "Wang",
@@ -196,14 +204,6 @@
             "grade": "7",
             "hobbies": "Dance, Math, Science, Geography, Music, Piano, Writing",
             "csExperience": "Logics, Problem Solving"
-        },
-        {
-            "imageLink": "JasmineGu.jpg",
-            "firstName": "Jasmine",
-            "lastName": "Gu",
-            "grade": "12",
-            "hobbies": "violin, spending time with friends, watching documentaries",
-            "csExperience": "Java, C++, Python, HTML"
         },
         {
             "imageLink": "JiaweiLiu2.jpg",
