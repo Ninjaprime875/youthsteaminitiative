@@ -33,7 +33,7 @@ class Nav extends HTMLElement {
       </nav>
     `;
 
-    // Optional: prevent reload when clicking the current page (if desired)
+    //  prevents reload for links that direct to current page
     this.querySelectorAll(".on-page").forEach(link => {
       link.addEventListener("click", e => e.preventDefault());
     });

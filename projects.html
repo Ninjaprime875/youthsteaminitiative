@@ -44,8 +44,7 @@
   <body id="page-top">
     <nav-component></nav-component>
 
-    <div class="breadcrumb-section">
-    </div>
+    <div class="breadcrumb-section"></div>
     <div>
       <h1
         class="h1"
@@ -55,7 +54,7 @@
           display: block;
           margin-left: auto;
           margin-right: auto;
-          padding-top: 40px;
+          margin-top: 80px;
           text-align: center;
         "
       >
@@ -63,301 +62,140 @@
       </h1>
       <hr class="specialdivider" />
     </div>
-    <div class="container px-4 px-lg-5">
-      <h1
-        style="
-          font-size: 30px;
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          padding-top: 40px;
-          text-align: center;
-        "
-      >
-        Active Projects
-      </h1>
-      <hr class="divider" />
-      <div class="projects">
-        <!--A project row has a maximum of 3 projects-->
-        <div class="projectrow">
-          <article>
-            <figure>
-              <div>
-                <img
-                  src="./images/LexBudget.png"
-                  alt="Lexington Budget Chatbot"
-                  width="100%"
-                />
-                <figcaption>Lexington Budget Chatbot</figcaption>
-              </div>
-            </figure>
-            <h3><a href="lexbudget.html">Lexington Budget Chatbot</a></h3>
-          </article>
-          <article>
-            <figure>
-              <div>
-                <img
-                  src="./images/lexLuxProjection.jpg"
-                  alt="Lex Lux Projection Show at Lexington Historical Society building"
-                  width="100%"
-                />
-                <figcaption>Lex Lux Projection Mapping</figcaption>
-              </div>
-            </figure>
-            <h3><a href="lexLux.html">Lex Lux Projection Shows</a></h3>
-          </article>
-          <article>
-            <figure>
-              <div>
-                <img
-                  src="./assets/img/lexHeroes/plaque.jpg"
-                  alt="Lex Heroes Plaque"
-                  width="100%"
-                />
-                <figcaption>Lexington Heroes Plaque</figcaption>
-              </div>
-            </figure>
-            <h3><a href="lexHeroes.html">Lexington Heroes</a></h3>
-          </article>
-        </div>
-        <div class="projectrow">
-          <article>
-            <figure>
-              <div>
-                <img
-                  src="./images/LYSTwebsite.png"
-                  alt="STEAM Team Website"
-                  width="100%"
-                />
-                <figcaption>STEAM Team Website</figcaption>
-              </div>
-            </figure>
-            <h3>
-              <a href="websiteoutreach.html">Website and Outreach Team</a>
-            </h3>
-          </article>
-          <article>
-            <figure>
-              <div>
-                <img
-                  src="./images/Ellen_Stone_Building.jpg"
-                  alt="Ellen Stone Building"
-                  width="100%"
-                />
-                <figcaption>Ellen Stone Building</figcaption>
-              </div>
-            </figure>
-            <h3><a href="lexingtonLyceum.html">Lexington Lyceum Project</a></h3>
-          </article>
-        </div>
-      </div>
-    </div>
+    <section class="projects-section">
+      <div class="projects-container">
+        <!-- Recent Projects -->
+        <h1 class="section-title">Recent Projects</h1>
+        <hr class="divider" />
 
-    <div class="container px-4 px-lg-5">
-      <h1
-        style="
-          font-size: 30px;
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          padding-top: 40px;
-          text-align: center;
-        "
-      >
-        Past Projects
-      </h1>
-      <hr class="divider" />
-      <div class="projects">
-        <div class="projectrow">
-          <article>
-            <figure>
-              <div>
-                <img src="./images/aapilogo.png" alt="AAPI Logo" width="100%" />
-                <figcaption>AAPI Logo</figcaption>
-              </div>
-            </figure>
-            <h3><a href="AAPI.html">AAPI Website</a></h3>
-          </article>
-          <article>
-            <figure>
-              <div>
-                <img
-                  src="./assets/img/cel/cel_building.jpg"
-                  alt="CEL Building"
-                  width="100%"
-                />
-                <figcaption>CEL Building</figcaption>
-              </div>
-            </figure>
-            <h3><a href="cel.html">CEL Data Analysis</a></h3>
-          </article>
-          <article>
-            <figure>
-              <div>
-                <img
-                  src="./assets/img/chirp/logosmall.png"
-                  alt="ChiRP Logo"
-                  width="100%"
-                />
-                <figcaption>ChiRP Logo</figcaption>
-              </div>
-            </figure>
-            <h3><a href="chirp.html">ChiRP Project</a></h3>
-          </article>
+        <div class="projects-grid">
+          <a href="lexbudget.html" class="project-card">
+            <img src="./images/LexBudget.png" alt="Lexington Budget Chatbot" />
+            <h5>Lexington Budget Chatbot</h5>
+          </a>
+
+          <a href="lexLux.html" class="project-card">
+            <img
+              src="./images/lexLuxProjection.jpg"
+              alt="Lex Lux Projection Mapping"
+            />
+            <h5>Lex Lux Projection Shows</h5>
+          </a>
+
+          <a href="websiteoutreach.html" class="project-card">
+            <img src="./images/LYSTwebsite.png" alt="STEAM Team Website" />
+            <h5>Website and Outreach Team</h5>
+          </a>
         </div>
-        <div class="projectrow">
-          <article>
-            <figure>
-              <div>
-                <img
-                  src="./assets/img/Ting-Talk/sit.png"
-                  alt="Ding Wei talking to Samuel Ting"
-                  width="100%"
-                />
-                <figcaption>Ding Wei talking to Samuel Ting</figcaption>
-              </div>
-            </figure>
-            <h3><a href="ttalk.html">Dr. Ting's Talk</a></h3>
-          </article>
-          <article>
-            <figure>
-              <div>
-                <img
-                  src="./assets/img/harrington/school.png"
-                  alt="Harrington Elementary School"
-                  width="100%"
-                />
-                <figcaption>Harrington Elementary School</figcaption>
-              </div>
-            </figure>
-            <h3><a href="harrington.html">Harrington PTA</a></h3>
-          </article>
-          <article>
-            <figure>
-              <div>
-                <img
-                  src="./assets/img/helpfulHands/2.JPG"
-                  alt="Helpful Hands"
-                  width="100%"
-                />
-                <figcaption>Helpful Hands</figcaption>
-              </div>
-            </figure>
-            <h3><a href="helpfulHands.html">Helpful Hands</a></h3>
-          </article>
-        </div>
-        <div class="projectrow">
-          <article>
-            <figure>
-              <div>
-                <img
-                  src="./assets/img/hotspots/minuteman.png"
-                  alt="Patriots Day Parade"
-                  width="100%"
-                />
-                <figcaption>Patriots Day Parade</figcaption>
-              </div>
-            </figure>
-            <h3><a href="hotspots.html">Hotspots Project</a></h3>
-          </article>
-          <article>
-            <figure>
-              <div>
-                <img
-                  src="./images/Team logo.png"
-                  alt="LYST Logo"
-                  width="100%"
-                />
-                <figcaption>LYST Logo</figcaption>
-              </div>
-            </figure>
-            <h3><a href="logoVote.html">Logo Voting</a></h3>
-          </article>
-          <article>
-            <figure>
-              <div>
-                <img
-                  src="./assets/img/lunarArts/sing.png"
-                  alt="2021 International Asian Music Festival"
-                  width="100%"
-                />
-                <figcaption>2021 International Asian Music Festival</figcaption>
-              </div>
-            </figure>
-            <h3><a href="lunarArts.html">Lunar Arts</a></h3>
-          </article>
-        </div>
-        <div class="projectrow">
-          <article>
-            <figure>
-              <div>
-                <img
-                  src="./assets/img/lny/lnyweb.png"
-                  alt="Lunar New Year Website"
-                  width="100%"
-                />
-                <figcaption>Lunar New Year Website</figcaption>
-              </div>
-            </figure>
-            <h3><a href="lnyweb.html">Lunar New Year Gala Website</a></h3>
-          </article>
-          <article>
-            <figure>
-              <div>
-                <img
-                  src="./assets/img/patriots/parade.png"
-                  alt="Patriots Day Parade"
-                  width="100%"
-                />
-                <figcaption>Patriots Day Parade</figcaption>
-              </div>
-            </figure>
-            <h3><a href="patriots.html">Patriots Day</a></h3>
-          </article>
-          <article>
-            <figure>
-              <div>
-                <img
-                  src="./images/pipergallery.jpeg"
-                  alt="Piper Gallery"
-                  width="100%"
-                />
-                <figcaption>Piper Gallery</figcaption>
-              </div>
-            </figure>
-            <h3><a href="logoVote.html">Photography Exhibition</a></h3>
-          </article>
-        </div>
-        <div class="projectrow">
-          <article>
-            <figure>
-              <div>
-                <img
-                  src="images/panel.jpeg"
-                  alt="LHS Experience Panel"
-                  width="100%"
-                />
-                <figcaption>LHS Experience Panel</figcaption>
-              </div>
-            </figure>
-            <h3><a href="seminar.html">Senior Seminar</a></h3>
-          </article>
-          <article>
-            <figure>
-              <div>
-                <img
-                  src="images/Volleyballwebsite.png"
-                  alt="Volleyball Website"
-                  width="100%"
-                />
-                <figcaption>Volleyball Website</figcaption>
-              </div>
-            </figure>
-            <h3><a href="volleyball.html">Volleyball Website</a></h3>
-          </article>
+
+        <!-- Past Projects -->
+        <h1 class="section-title">Past Projects</h1>
+        <hr class="divider" />
+
+        <div class="projects-grid">
+          <a href="AAPI.html" class="project-card">
+            <img src="./images/aapilogo.png" alt="AAPI Website" />
+            <h5>AAPI Website</h5>
+          </a>
+
+          <a href="cel.html" class="project-card">
+            <img
+              src="./assets/img/cel/cel_building.jpg"
+              alt="CEL Data Analysis"
+            />
+            <h5>CEL Data Analysis</h5>
+          </a>
+
+          <a href="chirp.html" class="project-card">
+            <img src="./assets/img/chirp/logosmall.png" alt="ChiRP Project" />
+            <h5>ChiRP Project</h5>
+          </a>
+
+          <a href="ttalk.html" class="project-card">
+            <img src="./assets/img/Ting-Talk/sit.png" alt="Dr. Ting's Talk" />
+            <h5>Dr. Ting's Talk</h5>
+          </a>
+
+          <a href="harrington.html" class="project-card">
+            <img
+              src="./assets/img/harrington/school.png"
+              alt="Harrington PTA"
+            />
+            <h5>Harrington PTA</h5>
+          </a>
+
+          <a href="helpfulHands.html" class="project-card">
+            <img src="./assets/img/helpfulHands/2.JPG" alt="Helpful Hands" />
+            <h5>Helpful Hands</h5>
+          </a>
+
+          <a href="hotspots.html" class="project-card">
+            <img
+              src="./assets/img/hotspots/minuteman.png"
+              alt="Hotspots Project"
+            />
+            <h5>Hotspots Project</h5>
+          </a>
+
+          <a href="lexHeroes.html" class="project-card">
+            <img
+              src="./assets/img/lexHeroes/plaque.jpg"
+              alt="Lexington Heroes"
+            />
+            <h5>Lexington Heroes</h5>
+          </a>
+
+          <a href="lexingtonLyceum.html" class="project-card">
+            <img
+              src="./images/Ellen_Stone_Building.jpg"
+              alt="Ellen Stone Building"
+            />
+            <h5>Lexington Lyceum Project</h5>
+          </a>
+
+          <a href="logoVote.html" class="project-card">
+            <img src="./images/Team logo.png" alt="LYST Logo" />
+            <h5>Logo Voting</h5>
+          </a>
+
+          <a href="lunarArts.html" class="project-card">
+            <img src="./assets/img/lunarArts/sing.png" alt="Lunar Arts" />
+            <h5>Lunar Arts</h5>
+          </a>
+
+          <a href="lnyweb.html" class="project-card">
+            <img
+              src="./assets/img/lny/lnyweb.png"
+              alt="Lunar New Year Gala Website"
+            />
+            <h5>Lunar New Year Gala Website</h5>
+          </a>
+
+          <a href="patriots.html" class="project-card">
+            <img
+              src="./assets/img/patriots/parade.png"
+              alt="Patriots Day Parade"
+            />
+            <h5>Patriots Day</h5>
+          </a>
+
+          <a href="logoVote.html" class="project-card">
+            <img src="./images/pipergallery.jpeg" alt="Piper Gallery" />
+            <h5>Photography Exhibition</h5>
+          </a>
+
+          <a href="seminar.html" class="project-card">
+            <img src="images/panel.jpeg" alt="LHS Experience Panel" />
+            <h5>Senior Seminar</h5>
+          </a>
+
+          <a href="volleyball.html" class="project-card">
+            <img src="images/Volleyballwebsite.png" alt="Volleyball Website" />
+            <h5>Volleyball Website</h5>
+          </a>
         </div>
       </div>
-    </div>
+    </section>
     <footer class="bg-light py-5">
       <div class="container px-4 px-lg-5">
         <div class="small text-center text-muted">
