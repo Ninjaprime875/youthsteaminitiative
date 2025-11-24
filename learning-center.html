@@ -40,33 +40,707 @@
 
     <!--		<link href = "css/flatlythemebootstrap.css" rel = "stylesheet" /> -->
 
-    <link rel="stylesheet" href="lecture-notes/lecture-notes.css" />
+    <style>
+      body {
+        background: #f8f9fc;
+      }
+      .table-wrapper {
+        background: #ffffff;
+        border: 1px solid #e3e7ef;
+        border-radius: 6px;
+        overflow: hidden;
+      }
+      thead th {
+        background: #f4f6fa;
+        font-weight: 600;
+        border-bottom: 1px solid #e3e7ef !important;
+      }
+      .resource-badge {
+        display: inline-block;
+        margin-right: 6px;
+        margin-bottom: 3px;
+        padding: 0.28rem 0.55rem;
+        font-size: 0.78rem;
+        background: #eef2ff;
+        color: #1a3d8f;
+        border-radius: 6px;
+        text-decoration: none;
+        border: 1px solid rgba(26, 61, 143, 0.08);
+      }
+      .topic-link {
+        text-decoration: none;
+        color: #0d6efd;
+      }
+      .topic-link:hover {
+        text-decoration: underline;
+      }
+      td {
+        font-size: 16px;
+      }
+    </style>
   </head>
 
   <body id="page-top">
     <nav-component></nav-component>
 
-    <section class="breadcrumb-section">
-    </section>
-    <section class="page-section" style="padding-top: 1.5rem" id="services">
-      <div class="container px-4 px-lg-5">
-        <h2 class="text-center mt-0">Lecture Notes</h2>
-        <hr class="divider" />
+    <main class="py-5">
+      <div class="container" style="margin-top: 100px">
+        <header class="text-center mb-4">
+          <h1 class="h3 fw-bold">Learning Center</h1>
+          <p class="text-muted">
+            All lectures created by members of the Youth Steam Initiative
+          </p>
+        </header>
 
-        <table id="lectureNotes" class="table table-hover">
-          <thead>
-            <tr>
-              <th scope="col">Date</th>
-              <th scope="col">Topic</th>
-              <th scope="col">Presenter</th>
-              <th scope="col">Description</th>
-              <th scope="col">Examples</th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
+        <div class="table-wrapper shadow-sm">
+          <div class="table-responsive">
+            <table class="table mb-0">
+              <thead>
+                <tr>
+                  <th style="width: 120px">Date</th>
+                  <th>Topic</th>
+                  <th style="width: 180px">Presenter</th>
+                  <th>Description</th>
+                  <th style="width: 220px">Resources</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>8/30/2025</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1lIFupH7Kknk70JdG7KUMIlqrjkePbJMlkh33uhQJIZI/edit?slide=id.g378023ee641_0_0#slide=id.g378023ee641_0_0"
+                      target="_blank"
+                      >AI in Imaging and Podcast Generation</a
+                    >
+                  </td>
+                  <td>William Yang</td>
+                  <td>
+                    Explore tools like Tensorflow and Mobilenet and learning new
+                    ways to study with AI
+                  </td>
+                  <td>
+                    <a
+                      class="resource-badge"
+                      href="https://youtu.be/e9Z9aJsNSxk"
+                      target="_blank"
+                      >Video Lecture</a
+                    >
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>8/16/2025</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://www.canva.com/design/DAGwRpBRa0A/egA0YPJRMS__gsjasGQ-9Q/edit"
+                      target="_blank"
+                      >Canva AI Animation</a
+                    >
+                  </td>
+                  <td>Isabella Li</td>
+                  <td>Use Canva's AI features and make a text animation</td>
+                  <td>
+                    <a
+                      class="resource-badge"
+                      href="https://youtu.be/1v3xQkVkZhQ"
+                      target="_blank"
+                      >Video Lecture</a
+                    >
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>8/9/2025</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://www.midjourney.com/"
+                      target="_blank"
+                      >Using Midjourney</a
+                    >
+                  </td>
+                  <td>Andrew Pan</td>
+                  <td>Generating Images and Videos in Midjourney</td>
+                  <td>
+                    <a
+                      class="resource-badge"
+                      href="https://youtu.be/zkK8MNbySeo"
+                      target="_blank"
+                      >Video Lecture</a
+                    >
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>8/2/2025</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://youtu.be/TkTGc2et8GU"
+                      target="_blank"
+                      >How to Animate</a
+                    >
+                  </td>
+                  <td>Joley Leung</td>
+                  <td>Two methods of animation (HW included at the end)</td>
+                  <td>
+                    <a
+                      class="resource-badge"
+                      href="https://youtu.be/TkTGc2et8GU"
+                      target="_blank"
+                      >Video Lecture</a
+                    >
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>7/26/2025</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/18y2-KFQpIe3eHk8Y_oKJfOLITMOOHe5IHgPINLc8XDs/edit?usp=sharing"
+                      target="_blank"
+                      >Projection Mapping</a
+                    >
+                  </td>
+                  <td>Claire Liu</td>
+                  <td>
+                    Projection mapping process & intro to mapping content
+                    creation
+                  </td>
+                  <td>
+                    <a
+                      class="resource-badge"
+                      href="https://youtu.be/EzLIuOceMKg"
+                      target="_blank"
+                      >Video Lecture</a
+                    >
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>7/19/2025</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1pkTfdYWKYTUP5esF97OMwARwVD4-RDoiI9zlzpzoF1E/edit?usp=sharing"
+                      target="_blank"
+                      >AI Ethics Part 2</a
+                    >
+                  </td>
+                  <td>Justin Wang</td>
+                  <td>AI Ethics and its implications + future directions</td>
+                  <td>
+                    <a
+                      class="resource-badge"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSdDalpDorUW42ciTkxuCXO_PIUio8D3GKRvYHLUfm2MBcYFeg/viewform"
+                      target="_blank"
+                      >HW Form</a
+                    >
+                    <a
+                      class="resource-badge"
+                      href="https://youtu.be/28b8XhQ8zIw"
+                      target="_blank"
+                      >Video Lecture</a
+                    >
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>7/12/2025</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1zHPZS_F8Ia0O_k_bbpnjjr7sNVGYL9_9oXTBlRdZtgc/edit?slide=id.g36eb6742883_2_147"
+                      target="_blank"
+                      >AI Ethics</a
+                    >
+                  </td>
+                  <td>Taku Ishibashi</td>
+                  <td>
+                    Introduction/Internal Training on the AI Ethics Project
+                  </td>
+                  <td>
+                    <a
+                      class="resource-badge"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSe3KxuIlOu-UoD1sTIRe-PdjMUEUVewPMx7ACoRrX4GsBWtmw/viewform"
+                      target="_blank"
+                      >HW Form</a
+                    >
+                    <a
+                      class="resource-badge"
+                      href="https://youtu.be/uCWgUwaMy9U"
+                      target="_blank"
+                      >Video Lecture</a
+                    >
+                  </td>
+                </tr>
+
+                <!-- 2023 -->
+                <tr>
+                  <td>9/16/2023</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1BZnyS8gamrwfnLCxvoZJ58lrt68RvuQeDXxTlHgJjb4/edit?usp=sharing"
+                      target="_blank"
+                      >Frontend & Web Design</a
+                    >
+                  </td>
+                  <td>Kevin Zhu</td>
+                  <td>Good frontend practices & web design guidelines</td>
+                  <td>
+                    <a
+                      class="resource-badge"
+                      href="https://github.com/BrilliantDeviation7/frontend-exercises"
+                      target="_blank"
+                      >HW Files</a
+                    >
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>6/17/2023</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1vPEBHd0vna7THaxuQDAh5wKXxIAp3JD-nb8AUfMss_c/edit?usp=sharing"
+                      target="_blank"
+                      >ReactJS</a
+                    >
+                  </td>
+                  <td>Kathy Sui</td>
+                  <td>Using ReactJS for front-end</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>6/3/2023</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1wPlthcKdGSlgooHHgAOWRrTAiCRkd4EQ7SWQiZMZ00k/edit?usp=sharing"
+                      target="_blank"
+                      >ExpressJS</a
+                    >
+                  </td>
+                  <td>Kathy Sui</td>
+                  <td>Making a backend server using ExpressJS</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>4/22/2023</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1fdWMo9AU7LeSj3AUbtxauLHXtZ_SvSttZbMwlVHg2Dg/edit?usp=sharing"
+                      target="_blank"
+                      >API</a
+                    >
+                  </td>
+                  <td>Kathy Sui</td>
+                  <td>Using APIs in NodeJS</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>3/25/2023</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1-SRmIFMBhgN-4ozo-2dphFpVPT55O1Kj7B48ucRFAM0/edit?usp=sharing"
+                      target="_blank"
+                      >NodeJS Website</a
+                    >
+                  </td>
+                  <td>Kathy Sui</td>
+                  <td>Building a Basic Website in NodeJS</td>
+                  <td>
+                    <a
+                      class="resource-badge"
+                      href="https://youtu.be/rkWdxHxHGbM"
+                      target="_blank"
+                      >Video Lecture</a
+                    >
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>3/24/2023</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1X-U_B-8leIC9QEgnSLkgEEQhf8op0CLyg-GWwgo5hiE/edit?usp=sharing"
+                      target="_blank"
+                      >Docker and NodeJS Setup</a
+                    >
+                  </td>
+                  <td>Kathy Sui</td>
+                  <td>Setting up Docker and NodeJS</td>
+                  <td>
+                    <a
+                      class="resource-badge"
+                      href="https://youtu.be/bJGUZiW1iUI"
+                      target="_blank"
+                      >Video Lecture</a
+                    >
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>3/18/2023</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1YRSP-ig-zObON-0ypy4wKvVftHRz0-7x8Q4vKklLPFQ/edit?usp=sharing"
+                      target="_blank"
+                      >Graphic Design</a
+                    >
+                  </td>
+                  <td>Jaden Leung, Baoren Liu</td>
+                  <td>Combining color theory, layout & composition</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>3/18/2023</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1BHoh9rvYOXjB0TtUPmxdDB0Etvt8JURZqFrmKfVdkzI/edit?usp=sharing"
+                      target="_blank"
+                      >Intermediate Web Development</a
+                    >
+                  </td>
+                  <td>Jaden, Kevin, Baoren</td>
+                  <td>HTML, CSS, Bootstrap, GitHub</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>3/18/2023</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1wCqSp7JL3_mpR9HC8k7OQbLxCyAKOx8LLfiGK0WRMYc/edit?usp=sharing"
+                      target="_blank"
+                      >Beginner Web Development</a
+                    >
+                  </td>
+                  <td>Jaden, Ethan, Kevin</td>
+                  <td>Basic HTML and CSS</td>
+                  <td></td>
+                </tr>
+
+                <!-- 2022 -->
+                <tr>
+                  <td>4/30/2022</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1XtxN4EF7yfmMOlZ5glcIpRc26gCGG4YG3PK842epeng/edit?usp=sharing"
+                      target="_blank"
+                      >WordPress Basics</a
+                    >
+                  </td>
+                  <td>Trevor Xing-Xie</td>
+                  <td>Setup, plugins, pages & shortcodes</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>4/23/2022</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1TtKvfLGBHQKsAJv9c1w6QUHX5C7PVk1O7agieTLd6c4/edit?usp=sharing"
+                      target="_blank"
+                      >2022 CLA Grant Presentation</a
+                    >
+                  </td>
+                  <td>Baoren, David, William</td>
+                  <td>Presentation for Civic Leadership Academy</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>2/12/2022</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/14xHyvX3xVhvYjfJ4PJAeSyR1fAt33QVd9B_bsuZx3s8/edit?usp=sharing"
+                      target="_blank"
+                      >Google Charts</a
+                    >
+                  </td>
+                  <td>Jerry Xu</td>
+                  <td>Powerful, simple charting tools</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>1/22/2022</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1jKTgxMjpdyEEY1YbjxqQHZXf1IDisQWvM4Lu3W8ieF4/edit?usp=sharing"
+                      target="_blank"
+                      >Step 4 Requirement Analysis</a
+                    >
+                  </td>
+                  <td>Kevin Zhu</td>
+                  <td>Website prototyping</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>1/22/2022</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1vRGMobIwhcQvzRXbyRbaA7ImWgTFDDMkn0XDJj11E9c/edit?usp=sharing"
+                      target="_blank"
+                      >Step 3 Requirement Analysis</a
+                    >
+                  </td>
+                  <td>Alex Lau</td>
+                  <td>Validating requirements meet client needs</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>1/15/2022</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1mJ5KdjaDocVl2ugBu2V0BtuuonQtSbK9X6HoDO3upTs/edit?usp=sharing"
+                      target="_blank"
+                      >Software Requirement Analysis</a
+                    >
+                  </td>
+                  <td>William Zhang</td>
+                  <td>Developing and clarifying user requirements</td>
+                  <td></td>
+                </tr>
+
+                <!-- 2021 -->
+                <tr>
+                  <td>11/20/2021</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1SxMO7d-S4iHqi015Z5QyY7myT8_b2IZ6A-gh2SQUuj4/edit?usp=sharing"
+                      target="_blank"
+                      >Bootstrap 5 Applications</a
+                    >
+                  </td>
+                  <td>Neil Lin</td>
+                  <td>List groups, dropdowns, collapse, carousel</td>
+                  <td>
+                    <a
+                      class="resource-badge"
+                      href="https://neil-homework.trevor20cb.repl.co/"
+                      target="_blank"
+                      >Example</a
+                    >
+                    <a
+                      class="resource-badge"
+                      href="https://ethan-shaonicvadico-homeworksiri.theoceanface.repl.co/"
+                      target="_blank"
+                      >Example</a
+                    >
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>11/13/2021</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1qOQlNhPPA6WFJD3GqIHEESCRdL63lWSV8CBMh2QoakY/edit?usp=sharing"
+                      target="_blank"
+                      >Intro to HTML, CSS & Bootstrap</a
+                    >
+                  </td>
+                  <td>Eli Olcott</td>
+                  <td>HTML tags, CSS, Bootstrap basics</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>11/12/2021</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/126n9IqfptN-XjRGWyJFSSUwS7IDauHzM8dUa5V2i0yA/edit?usp=sharing"
+                      target="_blank"
+                      >Labeling Guidance and Tools</a
+                    >
+                  </td>
+                  <td>Everest Yang</td>
+                  <td>Multi-label annotation workflow</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>11/6/2021</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1G5eSWzAa7Mk7yFQGEj_0dsqdOB7CThQ8Y68ajq6iOVU/edit?usp=sharing"
+                      target="_blank"
+                      >Intro to Bootstrap</a
+                    >
+                  </td>
+                  <td>Cassidy Xu</td>
+                  <td>Bootstrap CSS & grid system</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>10/23/2021</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1RK0qSQeou96ZIkT7uNcSgBzyLIuPKA-1JyCyJ0sdvLw/edit?usp=sharing"
+                      target="_blank"
+                      >CLA Award Showcase 2021</a
+                    >
+                  </td>
+                  <td>Everest Yang, Baoren Liu</td>
+                  <td>Presentation for "Project of the Year" award</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>9/11/2021</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1eLwwN6syqYkA2b7JUYYnIZ7vNOciLkSy_NdYOxYp7fY/edit?usp=sharing"
+                      target="_blank"
+                      >Jupyter Notebook</a
+                    >
+                  </td>
+                  <td>Ellen Wang</td>
+                  <td>Installation, UI, cells, widgets</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>8/14/2021</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1oB19MZT84j4qgFD969p5yBbBqCxD-bKg1wVFK2t9pGs/edit?usp=sharing"
+                      target="_blank"
+                      >NumPy Introduction</a
+                    >
+                  </td>
+                  <td>Kenneth Lu</td>
+                  <td>Intro to NumPy array operations</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>8/11/2021</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1-XJcbyZz_wC-6qZquuXEeHlq45naHmvKLe4eQbEx50M/edit?usp=sharing"
+                      target="_blank"
+                      >Pandas Presentation 1</a
+                    >
+                  </td>
+                  <td>David Zhao</td>
+                  <td>Installation and analyzing data</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>8/11/2021</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1OYuCrqY_3KwMI9J9sI2ji6WJ3f5JIIDVUrdHrEtfqU4/edit?usp=sharing"
+                      target="_blank"
+                      >Pandas Presentation 2</a
+                    >
+                  </td>
+                  <td>Albert Lin</td>
+                  <td>Random functions in Pandas</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>8/11/2021</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1n0fI_Kt230RXqqcX5wkYnnqVBhoDvCgGnP_TZ4Pu1uQ/edit?usp=sharing"
+                      target="_blank"
+                      >Pandas Presentation 3</a
+                    >
+                  </td>
+                  <td>Baoren Liu</td>
+                  <td>Modifying data in Pandas</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>8/13/2021</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1KB5-O5vlYUEzUyYsxDLLaXOemWcFdNIpJZxJjAzA9po/edit?usp=sharing"
+                      target="_blank"
+                      >Pandas Presentation 4</a
+                    >
+                  </td>
+                  <td>Trevor Xing-Xie</td>
+                  <td>Statistics & graphs in Pandas</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>8/13/2021</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1DlUbgdtPZocu7yIA8e2mXFpo8UkEemtl4_EMqMqpDbI/edit?usp=sharing"
+                      target="_blank"
+                      >Python Try/Except</a
+                    >
+                  </td>
+                  <td>Baoren Liu</td>
+                  <td>Exceptions & custom errors</td>
+                  <td></td>
+                </tr>
+
+                <tr>
+                  <td>1/30/2021</td>
+                  <td>
+                    <a
+                      class="topic-link"
+                      href="https://docs.google.com/presentation/d/1z_c2TUIbTactm_q5aNEMQNMFYcJvvdNQ8LzlWQkxXBY/edit?usp=sharing"
+                      target="_blank"
+                      >Python Topics to Learn</a
+                    >
+                  </td>
+                  <td>Everest Yang</td>
+                  <td>Overview of advanced Python topics</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
-    </section>
+    </main>
 
     <footer class="bg-light py-5">
       <div class="container px-4 px-lg-5">
