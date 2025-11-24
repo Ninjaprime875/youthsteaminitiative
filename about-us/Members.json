@@ -1,182 +1,174 @@
 {
-    "leader": [
-        {
-            "imageLink": "YuanhengMao.jpg",
-            "firstName": "Yuanheng",
-            "lastName": "Mao",
-            "grade": "12",
-            "hobbies": "Track, Raspberry Pi/Arduino Robotics, Coding, Cooking, Reading",
-            "csExperience": "Java, Python, Processing, HTML, CSS, JavaScript"
-        },
-        {
-            "imageLink": "EthanShao.jpg",
-            "firstName": "Ethan",
-            "lastName": "Shao",
-            "grade": "12",
-            "hobbies": "Robotics, Biking, Chess, Cooking, Playing Guitar",
-            "csExperience": "Python, HTML, CSS, C++, Java"
-        },
-        {
-            "imageLink": "EmmaHe.jpeg",
-            "firstName": "Emma",
-            "lastName": "He",
-            "grade": "12",
-            "hobbies": "Dance, Flute, Poetry",
-            "csExperience": "Python & Java"
-        },
-        {
-            "imageLink": "LillianYang.jpg",
-            "firstName": "Lillian",
-            "lastName": "Yang",
-            "grade": "12",
-            "hobbies": "Debate, Piano, and Skating",
-            "csExperience": "HTML, Java"
-        },
-        {
-            "imageLink": "ClaireLiu.jpg",
-            "firstName": "Claire",
-            "lastName": "Liu",
-            "grade": "12",
-            "hobbies": "Dance, flute, read, draw",
-            "csExperience": "Java, Python, HTML"
-        },
-        {
-            "imageLink": "SophiaZhou.jpeg",
-            "firstName": "Sophia",
-            "lastName": "Zhou",
-            "grade": "12",
-            "hobbies": "I enjoy reading and playing video games.",
-            "csExperience": "Python, Java, Javascript"
-        },
-        {
-            "imageLink": "JoleyLeung.png",
-            "firstName": "Joley",
-            "lastName": "Leung",
-            "grade": "12",
-            "hobbies": "Doodling, Baking and Dancing",
-            "csExperience": "Photoshop, Illustrator, Java, Python"
-        },
-        {
-            "imageLink": "WilliamYang.jpeg",
-            "firstName": "William",
-            "lastName": "Yang",
-            "grade": "10",
-            "hobbies": "I love playing tennis, keeping saltwater aquariums, playing the cello, and playing video games.",
-            "csExperience": "Java, Python"
-        },
-        {
-            "imageLink": "JerryXu.jpg",
-            "firstName": "Jerry",
-            "lastName": "Xu",
-            "grade": "12",
-            "hobbies": "math, biology, history, MTG, ping-pong, hiking",
-            "csExperience": "Java, Python, HTML, CSS, JavaScript, AI-related technologies (RAG and ReAct Agent), arduino"
-        },
-        {
-            "imageLink": "JasmineGu.jpg",
-            "firstName": "Jasmine",
-            "lastName": "Gu",
-            "grade": "12",
-            "hobbies": "violin, spending time with friends, watching documentaries",
-            "csExperience": "Java, C++, Python, HTML"
-        },
-        {
-            "imageLink": "JustinWang.jpg",
-            "firstName": "Justin",
-            "lastName": "Wang",
-            "grade": "11",
-            "hobbies": "Fencing, photography",
-            "csExperience": "JavaScript for web dev, Python for competitive programming"
-        }
-    ],
-    "member": [
-        {
-            "imageLink": "RenLin.jpeg",
-            "firstName": "Ren",
-            "lastName": "Lin",
-            "grade": "11",
-            "hobbies": "Volleyball, Web and Game Dev",
-            "csExperience": "Java, C++, and C#"
-        },
-        {
-            "imageLink": "StephenYang.JPG",
-            "firstName": "Stephen",
-            "lastName": "Yang",
-            "grade": "9",
-            "hobbies": "Piano, Basketball, Swimming, Coding, Reading",
-            "csExperience": "Web dev, Java, Making apps, Python, Machine learning"
-        },
-        {
-            "imageLink": "AndrewGu.png",
-            "firstName": "Andrew",
-            "lastName": "Gu",
-            "grade": "12",
-            "hobbies": "Soccer, Track & Field",
-            "csExperience": "Java, C++"
-        },
-        {
-            "imageLink": "AndrewZhang.png",
-            "firstName": "Andrew",
-            "lastName": "Zhang",
-            "grade": "10",
-            "hobbies": "Track, Baking, Playing the cello",
-            "csExperience": "Java, C++"
-        },
-        {
-            "imageLink": "Isabella.jpeg",
-            "firstName": "Isabella",
-            "lastName": "Li",
-            "grade": "11",
-            "hobbies": "music, learning languages, anime",
-            "csExperience": "C++, Python, HTML, CSS"
-        },
-        {
-            "imageLink": "Angelina.jpg",
-            "firstName": "Angelina",
-            "lastName": "Ding",
-            "grade": "7",
-            "hobbies": "Dance, Math, Science, Geography, Music, Piano, Writing",
-            "csExperience": "Logics, Problem Solving"
-        },
-        {
-            "imageLink": "JiaweiLiu2.jpg",
-            "firstName": "Jiawei",
-            "lastName": "Liu",
-            "grade": "9",
-            "hobbies": "Math, Basketball, Geography, Swimming, Badminton, Ping Pong, Writing, Piano",
-            "csExperience": "Python, HTML"
-        },
-        {
-            "imageLink": "MichaelHe.jpeg",
-            "firstName": "Michael",
-            "lastName": "He",
-            "grade": "12",
-            "hobbies": "coding, math, track and field, and reading",
-            "csExperience": "Java, C++, and some Python"
-        },
-        {
-            "imageLink": "Taku.png",
-            "firstName": "Taku",
-            "lastName": "Ishibashi",
-            "grade": "10",
-            "hobbies": "Coding, Basketball, Game Development, Lifting",
-            "csExperience": "Python, HTML, C#"
-        },
-        {
-            "imageLink": "AndrewPan.jpg",
-            "firstName": "Andrew",
-            "lastName": "Pan",
-            "grade": "11",
-            "hobbies": "Programming, robotics, tennis",
-            "csExperience": "C++, Python"
-        },
-        {
-            "imageLink": "AndrewZhao.jpg",
-            "firstName": "Andrew",
-            "lastName": "Zhao",
-            "grade": "10",
-            "hobbies": "Volleyball, camping, fishing",
-            "csExperience": "Java, C++"
-        }
-    ]
+  "leader": [
+    {
+      "imageLink": "YuanhengMao.jpg",
+      "firstName": "Yuanheng",
+      "lastName": "Mao",
+      "grade": "12",
+      "hobbies": "Track, Raspberry Pi/Arduino Robotics, Coding, Cooking, Reading",
+      "csExperience": "Java, Python, Processing, HTML, CSS, JavaScript"
+    },
+    {
+      "imageLink": "EthanShao.jpg",
+      "firstName": "Ethan",
+      "lastName": "Shao",
+      "grade": "12",
+      "hobbies": "Robotics, Biking, Chess, Cooking, Playing Guitar",
+      "csExperience": "Python, HTML, CSS, C++, Java"
+    },
+    {
+      "imageLink": "StephenYang2.png",
+      "firstName": "Stephen",
+      "lastName": "Yang",
+      "grade": "9",
+      "hobbies": "Piano, Basketball, Swimming, Programming, Reading",
+      "csExperience": "Web dev, Java, C++, Python, ML"
+    },
+    {
+      "imageLink": "EmmaHe.jpeg",
+      "firstName": "Emma",
+      "lastName": "He",
+      "grade": "12",
+      "hobbies": "Dance, Flute, Poetry",
+      "csExperience": "Python & Java"
+    },
+    {
+      "imageLink": "LillianYang.jpg",
+      "firstName": "Lillian",
+      "lastName": "Yang",
+      "grade": "12",
+      "hobbies": "Debate, Piano, and Skating",
+      "csExperience": "HTML, Java"
+    },
+    {
+      "imageLink": "ClaireLiu.jpg",
+      "firstName": "Claire",
+      "lastName": "Liu",
+      "grade": "12",
+      "hobbies": "Dance, flute, read, draw",
+      "csExperience": "Java, Python, HTML"
+    },
+    {
+      "imageLink": "SophiaZhou.jpeg",
+      "firstName": "Sophia",
+      "lastName": "Zhou",
+      "grade": "12",
+      "hobbies": "I enjoy reading and playing video games.",
+      "csExperience": "Python, Java, Javascript"
+    },
+    {
+      "imageLink": "JoleyLeung.png",
+      "firstName": "Joley",
+      "lastName": "Leung",
+      "grade": "12",
+      "hobbies": "Doodling, Baking and Dancing",
+      "csExperience": "Photoshop, Illustrator, Java, Python"
+    },
+    {
+      "imageLink": "WilliamYang.jpeg",
+      "firstName": "William",
+      "lastName": "Yang",
+      "grade": "10",
+      "hobbies": "I love playing tennis, keeping saltwater aquariums, playing the cello, and playing video games.",
+      "csExperience": "Java, Python"
+    },
+    {
+      "imageLink": "JerryXu.jpg",
+      "firstName": "Jerry",
+      "lastName": "Xu",
+      "grade": "12",
+      "hobbies": "math, biology, history, MTG, ping-pong, hiking",
+      "csExperience": "Java, Python, HTML, CSS, JavaScript, AI-related technologies (RAG and ReAct Agent), arduino"
+    },
+    {
+      "imageLink": "JasmineGu.jpg",
+      "firstName": "Jasmine",
+      "lastName": "Gu",
+      "grade": "12",
+      "hobbies": "violin, spending time with friends, watching documentaries",
+      "csExperience": "Java, C++, Python, HTML"
+    },
+    {
+      "imageLink": "JustinWang.jpg",
+      "firstName": "Justin",
+      "lastName": "Wang",
+      "grade": "11",
+      "hobbies": "Fencing, photography",
+      "csExperience": "JavaScript for web dev, Python for competitive programming"
+    }
+  ],
+  "member": [
+    {
+      "imageLink": "AndrewGu.png",
+      "firstName": "Andrew",
+      "lastName": "Gu",
+      "grade": "12",
+      "hobbies": "Soccer, Track & Field",
+      "csExperience": "Java, C++"
+    },
+    {
+      "imageLink": "AndrewZhang.png",
+      "firstName": "Andrew",
+      "lastName": "Zhang",
+      "grade": "10",
+      "hobbies": "Track, Baking, Playing the cello",
+      "csExperience": "Java, C++"
+    },
+    {
+      "imageLink": "Isabella.jpeg",
+      "firstName": "Isabella",
+      "lastName": "Li",
+      "grade": "11",
+      "hobbies": "music, learning languages, anime",
+      "csExperience": "C++, Python, HTML, CSS"
+    },
+    {
+      "imageLink": "Angelina.jpg",
+      "firstName": "Angelina",
+      "lastName": "Ding",
+      "grade": "7",
+      "hobbies": "Dance, Math, Science, Geography, Music, Piano, Writing",
+      "csExperience": "Logics, Problem Solving"
+    },
+    {
+      "imageLink": "JiaweiLiu2.jpg",
+      "firstName": "Jiawei",
+      "lastName": "Liu",
+      "grade": "9",
+      "hobbies": "Math, Basketball, Geography, Swimming, Badminton, Ping Pong, Writing, Piano",
+      "csExperience": "Python, HTML"
+    },
+    {
+      "imageLink": "MichaelHe.jpeg",
+      "firstName": "Michael",
+      "lastName": "He",
+      "grade": "12",
+      "hobbies": "coding, math, track and field, and reading",
+      "csExperience": "Java, C++, and some Python"
+    },
+    {
+      "imageLink": "Taku.png",
+      "firstName": "Taku",
+      "lastName": "Ishibashi",
+      "grade": "10",
+      "hobbies": "Coding, Basketball, Game Development, Lifting",
+      "csExperience": "Python, HTML, C#"
+    },
+    {
+      "imageLink": "AndrewPan.jpg",
+      "firstName": "Andrew",
+      "lastName": "Pan",
+      "grade": "11",
+      "hobbies": "Programming, robotics, tennis",
+      "csExperience": "C++, Python"
+    },
+    {
+      "imageLink": "AndrewZhao.jpg",
+      "firstName": "Andrew",
+      "lastName": "Zhao",
+      "grade": "10",
+      "hobbies": "Volleyball, camping, fishing",
+      "csExperience": "Java, C++"
+    }
+  ]
 }
