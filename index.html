@@ -103,7 +103,6 @@
         </div>
       </div>
     </header>
-    <br /><br /><br />
     <div class="main-container">
       <div class="sidebar">
         <p class="aboutheading">About Us</p>
@@ -120,62 +119,68 @@
       </div>
       <div class="mobiledivider"></div>
 
-      <div class="content text-center">
-        <!-- Page-specific content -->
-        <section class="mission">
-          <h2 id="Mission">Who We Are</h2>
-          <hr class="divider" />
-          <p class="text-muted mb-0" style="margin: auto; width: 80%">
-            We are a group of students passionate about STEAM who want to
-            contribute to our community! In this team, we emphasize
-            collaboration, perseverance, dedication, and kindness. We use our
-            free technological solutions to empower local nonprofits, public
-            institutions, and town governments in the Boston area, hoping to
-            make a meaningful impact and inspire the next generation of
-            problem-solvers.
-          </p>
-          <br /><br />
-          <h2 id="Mission">Our Mission</h2>
-          <hr class="divider" />
-          <p class="text-muted mb-0" style="margin: auto; width: 80%">
-            Our mission is to support our community through the development of
-            innovative computer science projects.
-          </p>
-        </section>
-        <section class="page-section" id="services">
+      <div class="content text-center py-5">
+        <section class="mission my-5">
+          <h2 class="display-5 fw-bold mb-3">Who We Are</h2>
+          <hr class="divider w-50 mx-auto border-3" />
           <div class="container px-4 px-lg-5">
-            <h2 class="text-center mt-0">Learning Center</h2>
-            <hr class="divider" />
+            <p class="text-muted lead mx-auto" style="max-width: 800px">
+              We are a group of students passionate about STEAM who want to
+              contribute to our community! In this team, we emphasize
+              <b>collaboration, perseverance, dedication, and kindness</b>. We
+              use our free technological solutions to empower local nonprofits,
+              public institutions, and town governments in the Boston area,
+              hoping to make a meaningful impact and inspire the next generation
+              of problem-solvers.
+            </p>
+          </div>
+
+          <h2 id="Mission" class="display-5 fw-bold mt-5 mb-3">Our Mission</h2>
+          <hr class="divider w-50 mx-auto border-3" />
+          <div class="container px-4 px-lg-5">
+            <p class="text-muted lead mx-auto" style="max-width: 800px">
+              Our mission is to support our community through the development of
+              innovative computer science projects.
+            </p>
+          </div>
+        </section>
+
+        <hr class="my-5" />
+
+        <section class="page-section bg-light py-5">
+          <div class="container px-4 px-lg-5">
+            <h2 class="text-center display-6 fw-bold mb-5">Learning Center</h2>
             <div class="row gx-4 gx-lg-5">
-              <div class="col-lg-4 col-md-6 text-center">
-                <div class="mt-5">
-                  <div class="mb-2">
-                    <i class="bi-gem fs-1" style="color: #d4ad00"></i>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="p-4 border rounded-3 h-100 shadow-sm">
+                  <div class="mb-3">
+                    <i class="bi-gem fs-1 text-primary"></i>
                   </div>
-                  <h3 class="h4 mb-2">View Past Presentations</h3>
+                  <h3 class="h4 mb-3">View Past Presentations</h3>
                   <p class="text-muted mb-0">
                     All our previous presentations are available to everyone!
                   </p>
                 </div>
               </div>
 
-              <div class="col-lg-4 col-md-6 text-center">
-                <div class="mt-5">
-                  <div class="mb-2">
-                    <i class="bi-laptop fs-1" style="color: #d4ad00"></i>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="p-4 border rounded-3 h-100 shadow-sm">
+                  <div class="mb-3">
+                    <i class="bi-laptop fs-1 text-primary"></i>
                   </div>
-                  <h3 class="h4 mb-2">Learn About Various Topics</h3>
+                  <h3 class="h4 mb-3">Learn About Various Topics</h3>
                   <p class="text-muted mb-0">
                     Get to know Pandas, NumPy, Bootstrap, HTML, and more!
                   </p>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 text-center">
-                <div class="mt-5">
-                  <div class="mb-2">
-                    <i class="bi-globe fs-1" style="color: #d4ad00"></i>
+
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="p-4 border rounded-3 h-100 shadow-sm">
+                  <div class="mb-3">
+                    <i class="bi-globe fs-1 text-primary"></i>
                   </div>
-                  <h3 class="h4 mb-2">See Examples</h3>
+                  <h3 class="h4 mb-3">See Examples</h3>
                   <p class="text-muted mb-0">
                     Look at exemplary examples to gain better understanding of
                     concepts.
@@ -183,82 +188,81 @@
                 </div>
               </div>
             </div>
-            <br />
-            <div class="container px-4 px-lg-5 text-center">
-              <a class="btn btn-dark btn-xl" href="learning-center.html"
-                >Discover</a
+            <div class="text-center mt-4 pt-3">
+              <a
+                class="btn btn-primary btn-xl rounded-pill"
+                href="learning-center.html"
+                >Click to Learn More</a
               >
             </div>
           </div>
         </section>
-        <div class="container px-4 px-lg-5">
-          <h2 class="text-center mt-0">Recent Projects</h2>
-          <hr class="divider" />
-        </div>
-        <div id="portfolio" class="container-fluid py-5">
-          <div class="container">
-            <div class="row g-4">
-              <!-- Project 1 -->
-              <div class="col-lg-4 col-md-6">
-                <div class="card border-0">
-                  <a
-                    href="lexbudget.html"
-                    class="text-decoration-none d-flex flex-column h-100"
-                  >
-                    <img
-                      src="images/LexBudget.png"
-                      class="card-img-top fixed-image"
-                      alt="Lexington Budget Chatbot"
-                    />
-                    <div class="card-body text-center equal-height">
-                      <h5 class="card-title">
-                        Lexington Budget Chatbot
-                      </h5>
-                    </div>
-                  </a>
-                </div>
-              </div>
 
-              <!-- Project 2 -->
-              <div class="col-lg-4 col-md-6">
-                <div class="card border-0">
-                  <a
-                    href="lexingtonLyceum.html"
-                    class="text-decoration-none d-flex flex-column h-100"
-                  >
-                    <img
-                      src="images/Ellen_Stone_Building.jpg"
-                      class="card-img-top fixed-image"
-                      alt="Ellen Stone Building"
-                    />
-                    <div class="card-body text-center equal-height">
-                      <h5 class="card-title">Lexington Lyceum</h5>
-                    </div>
-                  </a>
-                </div>
-              </div>
+        <hr class="my-5" />
 
-              <!-- Project 3 -->
+        <section class="py-5">
+          <div class="container px-4 px-lg-5">
+            <h2 class="text-center display-6 fw-bold mb-5">Recent Projects</h2>
+            <div class="row g-4 justify-content-center">
               <div class="col-lg-4 col-md-6">
-                <div class="card border-0">
-                  <a
-                    href="lexHeroes.html"
-                    class="text-decoration-none d-flex flex-column h-100"
+                <a
+                  href="detect.html"
+                  class="card h-100 shadow-lg text-decoration-none text-dark overflow-hidden **d-flex flex-column**"
+                >
+                  <img
+                    src="images/ICDM_UGHS_presentation.jpg"
+                    class="card-img-top"
+                    alt="ICDM UGHS oral presentation"
+                  />
+                  <div
+                    class="card-body p-4 **d-flex align-items-center justify-content-center flex-grow-1**"
                   >
-                    <img
-                      src="assets/img/lexHeroes/plaque.jpg"
-                      class="card-img-top fixed-image"
-                      alt="Lexington Heroes Plaque"
-                    />
-                    <div class="card-body text-center equal-height">
-                      <h5 class="card-title">Lexington Heroes</h5>
-                    </div>
-                  </a>
-                </div>
+                    <h5 class="card-title fw-bold mb-0">
+                      DETECT: Data-Driven Evaluation of Treatments Enabled by
+                      Classification Transformers
+                    </h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <a
+                  href="lexbudget.html"
+                  class="card h-100 shadow-lg text-decoration-none text-dark overflow-hidden **d-flex flex-column**"
+                >
+                  <img
+                    src="images/LexBudget.png"
+                    class="card-img-top"
+                    alt="Lexington Budget Chatbot"
+                  />
+                  <div
+                    class="card-body p-4 **d-flex align-items-center justify-content-center flex-grow-1**"
+                  >
+                    <h5 class="card-title fw-bold mb-0">
+                      Lexington Budget Chatbot
+                    </h5>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <a
+                  href="lexHeroes.html"
+                  class="card h-100 shadow-lg text-decoration-none text-dark overflow-hidden **d-flex flex-column**"
+                >
+                  <img
+                    src="assets/img/lexHeroes/plaque.jpg"
+                    class="card-img-top"
+                    alt="Lexington Heroes Plaque"
+                  />
+                  <div
+                    class="card-body p-4 **d-flex align-items-center justify-content-center flex-grow-1**"
+                  >
+                    <h5 class="card-title fw-bold mb-0">Lexington Heroes</h5>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </div>
     <footer class="bg-light py-5 footer">
