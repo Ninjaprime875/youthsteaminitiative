@@ -11426,8 +11426,8 @@ header.masthead {
   /*changes the background image currently the cs team, and the color of the overlay thing*/
   background: linear-gradient(
       to bottom,
-      rgba(5, 112, 199, 0.5) 0%,
-      rgba(5, 91, 160, 0.5) 100%
+      rgba(26, 79, 122, 0.6) 0%,
+      rgba(19, 57, 89, 0.6) 100%
     ),
     url("../images/CSteam6.jpg"); /* this changes the cover photo in the main page */
 
