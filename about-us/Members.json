@@ -139,6 +139,14 @@
       "csExperience": "Python, HTML"
     },
     {
+      "imageLink": "kalina.jpg",
+      "firstName": "Kalina",
+      "lastName": "Liu",
+      "grade": "11",
+      "hobbies": "Math, vocaloid, traditional art",
+      "csExperience": "HTML, CSS, Java"
+    },
+    {
       "imageLink": "Trenton_Fan.webp",
       "firstName": "Trenton",
       "lastName": "Fan",
