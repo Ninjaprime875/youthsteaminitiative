@@ -26,6 +26,9 @@ class FooterComponent extends HTMLElement {
           </div>
         </div>
       </footer>
+      <!-- Cloudflare Web Analytics -->
+      <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "256ed5ab91584392aeb0701ebbf24e30"}'></script>
+      <!-- End Cloudflare Web Analytics -->
       <style>
         .footer-component {
           background-color: #f8f9fa;
@@ -64,11 +67,6 @@ class FooterComponent extends HTMLElement {
         }
       </style>
     `;
-
-    const yearEl = this.querySelector('#footer-year');
-    if (yearEl) {
-      yearEl.textContent = new Date().getFullYear();
-    }
   }
 }
 
